@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://p7lnlvcgo2aa"]
+
+[ext_resource type="PackedScene" uid="uid://dug88kksuhjr2" path="res://assets/models/lampPost.fbx" id="1_pxkuv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jg3jn"]
+albedo_color = Color(0.360784, 0.360784, 0.360784, 1)
+metallic = 0.44
+
+[node name="lampPost" instance=ExtResource("1_pxkuv")]
+
+[node name="Cylinder" parent="RootNode" index="0"]
+transform = Transform3D(-0.621716, -99.9981, 0, 0, 0, 100, -99.9981, 0.621713, 0, 0.0191786, 0, 0.0430999)
+material_override = SubResource("StandardMaterial3D_jg3jn")

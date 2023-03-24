@@ -1,0 +1,836 @@
+// Game: Godot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/Buildings;textures/Level;textures/Prototype/Dark;textures/Prototype/Green;textures/Prototype/Light;textures/Prototype/Orange;textures/Prototype/Purple;textures/Prototype/Red"
+"_tb_mod" "addons"
+// brush 0
+{
+( -1136 3720 992 ) ( -1136 3608 992 ) ( -1136 3608 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 40 0 0 0.25 0.25
+( -1136 3608 992 ) ( -608 3608 992 ) ( -608 3608 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 0 0 0.25 0.25
+( -1136 3608 40 ) ( -608 3608 40 ) ( -704 3720 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 -40 0 0.25 0.25
+( -704 3720 928 ) ( -608 3608 928 ) ( -1136 3608 928 ) Level/concrete_2x2 -40 -40 0 0.25 0.25
+( -704 3720 40 ) ( -704 3720 992 ) ( -1136 3720 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 0 0 0.25 0.25
+( -608 3608 40 ) ( -608 3608 992 ) ( -704 3720 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 40 0 0 0.25 0.25
+}
+// brush 1
+{
+( -1136 3608 992 ) ( -1136 3496 992 ) ( -1136 3496 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 40 0 0 0.25 0.25
+( -1136 3496 992 ) ( -704 3496 992 ) ( -704 3496 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 0 0 0.25 0.25
+( -704 3496 40 ) ( -608 3608 40 ) ( -1136 3608 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 -40 0 0.25 0.25
+( -1136 3608 928 ) ( -608 3608 928 ) ( -704 3496 928 ) Level/concrete_2x2 -40 -40 0 0.25 0.25
+( -608 3608 40 ) ( -608 3608 992 ) ( -1136 3608 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -40 0 0 0.25 0.25
+( -704 3496 992 ) ( -608 3608 992 ) ( -608 3608 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 40 0 0 0.25 0.25
+}
+// brush 2
+{
+( -960 4048 992 ) ( -960 3936 992 ) ( -960 3936 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -288 0 0 0.25 0.25
+( -960 3936 992 ) ( -432 3936 992 ) ( -432 3936 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 0 0 0.25 0.25
+( -960 3936 40 ) ( -432 3936 40 ) ( -528 4048 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 288 0 0.25 0.25
+( -528 4048 928 ) ( -432 3936 928 ) ( -960 3936 928 ) Level/concrete_2x2 -216 288 0 0.25 0.25
+( -528 4048 40 ) ( -528 4048 992 ) ( -960 4048 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 0 0 0.25 0.25
+( -432 3936 40 ) ( -432 3936 992 ) ( -528 4048 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -288 0 0 0.25 0.25
+}
+// brush 3
+{
+( -960 3936 992 ) ( -960 3824 992 ) ( -960 3824 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -288 0 0 0.25 0.25
+( -960 3824 992 ) ( -528 3824 992 ) ( -528 3824 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 0 0 0.25 0.25
+( -528 3824 40 ) ( -432 3936 40 ) ( -960 3936 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 288 0 0.25 0.25
+( -960 3936 928 ) ( -432 3936 928 ) ( -528 3824 928 ) Level/concrete_2x2 -216 288 0 0.25 0.25
+( -432 3936 40 ) ( -432 3936 992 ) ( -960 3936 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -216 0 0 0.25 0.25
+( -528 3824 992 ) ( -432 3936 992 ) ( -432 3936 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -288 0 0 0.25 0.25
+}
+// brush 4
+{
+( -800 4360 992 ) ( -800 4248 992 ) ( -800 4248 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -600 0 0 0.25 0.25
+( -800 4248 992 ) ( -272 4248 992 ) ( -272 4248 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 0 0 0.25 0.25
+( -800 4248 40 ) ( -272 4248 40 ) ( -368 4360 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 600 0 0.25 0.25
+( -368 4360 928 ) ( -272 4248 928 ) ( -800 4248 928 ) Level/concrete_2x2 -376 600 0 0.25 0.25
+( -368 4360 40 ) ( -368 4360 992 ) ( -800 4360 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 0 0 0.25 0.25
+( -272 4248 40 ) ( -272 4248 992 ) ( -368 4360 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -600 0 0 0.25 0.25
+}
+// brush 5
+{
+( -800 4248 992 ) ( -800 4136 992 ) ( -800 4136 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -600 0 0 0.25 0.25
+( -800 4136 992 ) ( -368 4136 992 ) ( -368 4136 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 0 0 0.25 0.25
+( -368 4136 40 ) ( -272 4248 40 ) ( -800 4248 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 600 0 0.25 0.25
+( -800 4248 928 ) ( -272 4248 928 ) ( -368 4136 928 ) Level/concrete_2x2 -376 600 0 0.25 0.25
+( -272 4248 40 ) ( -272 4248 992 ) ( -800 4248 992 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -376 0 0 0.25 0.25
+( -368 4136 992 ) ( -272 4248 992 ) ( -272 4248 40 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -600 0 0 0.25 0.25
+}
+// brush 6
+{
+( -2840 1368 1224 ) ( -2840 1256 1224 ) ( -2840 1256 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 68 -96 0 0.25 0.25
+( -2840 1256 1224 ) ( -2312 1256 1224 ) ( -2312 1256 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -96 0 0.25 0.25
+( -2840 1256 272 ) ( -2312 1256 272 ) ( -2408 1368 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -232 0 0.25 0.25
+( -2408 1368 1160 ) ( -2312 1256 1160 ) ( -2840 1256 1160 ) Level/concrete_2x2 -136 -232 0 0.25 0.25
+( -2408 1368 272 ) ( -2408 1368 1224 ) ( -2840 1368 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -96 0 0.25 0.25
+( -2312 1256 272 ) ( -2312 1256 1224 ) ( -2408 1368 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 68 -96 0 0.25 0.25
+}
+// brush 7
+{
+( -2840 1256 1224 ) ( -2840 1144 1224 ) ( -2840 1144 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 68 -96 0 0.25 0.25
+( -2840 1144 1224 ) ( -2408 1144 1224 ) ( -2408 1144 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -96 0 0.25 0.25
+( -2408 1144 272 ) ( -2312 1256 272 ) ( -2840 1256 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -232 0 0.25 0.25
+( -2840 1256 1160 ) ( -2312 1256 1160 ) ( -2408 1144 1160 ) Level/concrete_2x2 -136 -232 0 0.25 0.25
+( -2312 1256 272 ) ( -2312 1256 1224 ) ( -2840 1256 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -728 -96 0 0.25 0.25
+( -2408 1144 1224 ) ( -2312 1256 1224 ) ( -2312 1256 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 68 -96 0 0.25 0.25
+}
+// brush 8
+{
+( -2664 1584 1224 ) ( -2664 1472 1224 ) ( -2664 1472 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 678 -96 0 0.25 0.25
+( -2664 1472 1224 ) ( -2232 1472 1224 ) ( -2232 1472 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -96 0 0.25 0.25
+( -2232 1472 272 ) ( -2136 1584 272 ) ( -2664 1584 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -928 0 0.25 0.25
+( -2664 1584 1160 ) ( -2136 1584 1160 ) ( -2232 1472 1160 ) Level/concrete_2x2 -56 -160 0 0.25 0.25
+( -2136 1584 272 ) ( -2136 1584 1224 ) ( -2664 1584 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -96 0 0.25 0.25
+( -2232 1472 1224 ) ( -2136 1584 1224 ) ( -2136 1584 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 678 -96 0 0.25 0.25
+}
+// brush 9
+{
+( -2664 1696 1224 ) ( -2664 1584 1224 ) ( -2664 1584 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 678 -96 0 0.25 0.25
+( -2664 1584 1224 ) ( -2136 1584 1224 ) ( -2136 1584 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -96 0 0.25 0.25
+( -2664 1584 272 ) ( -2136 1584 272 ) ( -2232 1696 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -928 0 0.25 0.25
+( -2232 1696 1160 ) ( -2136 1584 1160 ) ( -2664 1584 1160 ) Level/concrete_2x2 -56 -160 0 0.25 0.25
+( -2232 1696 272 ) ( -2232 1696 1224 ) ( -2664 1696 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -904 -96 0 0.25 0.25
+( -2136 1584 272 ) ( -2136 1584 1224 ) ( -2232 1696 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 678 -96 0 0.25 0.25
+}
+// brush 10
+{
+( -2504 2008 1224 ) ( -2504 1896 1224 ) ( -2504 1896 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 366 -96 0 0.25 0.25
+( -2504 1896 1224 ) ( -1976 1896 1224 ) ( -1976 1896 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -96 0 0.25 0.25
+( -2504 1896 272 ) ( -1976 1896 272 ) ( -2072 2008 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -616 0 0.25 0.25
+( -2072 2008 1160 ) ( -1976 1896 1160 ) ( -2504 1896 1160 ) Level/concrete_2x2 -216 -104 0 0.25 0.25
+( -2072 2008 272 ) ( -2072 2008 1224 ) ( -2504 2008 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -96 0 0.25 0.25
+( -1976 1896 272 ) ( -1976 1896 1224 ) ( -2072 2008 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 366 -96 0 0.25 0.25
+}
+// brush 11
+{
+( -2504 1896 1224 ) ( -2504 1784 1224 ) ( -2504 1784 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 366 -96 0 0.25 0.25
+( -2504 1784 1224 ) ( -2072 1784 1224 ) ( -2072 1784 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -96 0 0.25 0.25
+( -2072 1784 272 ) ( -1976 1896 272 ) ( -2504 1896 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -616 0 0.25 0.25
+( -2504 1896 1160 ) ( -1976 1896 1160 ) ( -2072 1784 1160 ) Level/concrete_2x2 -216 -104 0 0.25 0.25
+( -1976 1896 272 ) ( -1976 1896 1224 ) ( -2504 1896 1224 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -126 -96 0 0.25 0.25
+( -2072 1784 1224 ) ( -1976 1896 1224 ) ( -1976 1896 272 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 366 -96 0 0.25 0.25
+}
+// brush 12
+{
+( -2813.9896904476745 -716.9385127825957 520 ) ( -2813.989690447669 -716.938512782604 1600 ) ( -2597.9896904477228 -1091.0614872174228 1760 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -92.150635 -32 0 0.25 0.25
+( -2426.0103095523446 -492.93851278255534 520 ) ( -2426.0103095523154 -492.9385127825495 1600 ) ( -2813.989690447669 -716.938512782604 1600 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 209.31543 -32 0 0.25 0.25
+( -2597.9896904477228 -1091.0614872174228 1760 ) ( -2813.989690447669 -716.938512782604 1600 ) ( -2426.0103095523154 -492.9385127825495 1600 ) Level/concrete_2x2 11.455811 170.10797 30 0.25 0.25
+( -2597.98969044772 -1091.0614872174351 520 ) ( -2210.01030955225 -867.0614872175465 520 ) ( -2426.0103095523446 -492.93851278255534 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 11.455811 170.10797 30 0.25 0.25
+( -2597.9896904477228 -1091.0614872174228 1760 ) ( -2210.010309552228 -867.0614872175202 1760 ) ( -2210.01030955225 -867.0614872175465 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 215.90015 -32 0 0.25 0.25
+( -2210.01030955225 -867.0614872175465 520 ) ( -2210.010309552228 -867.0614872175202 1760 ) ( -2426.0103095523154 -492.9385127825495 1600 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -94.80365 -32 0 0.25 0.25
+}
+// brush 13
+{
+( -2237.98969044772 -1707.0614872174456 520 ) ( -2453.9896904476504 -1332.9385127826408 520 ) ( -2453.989690447652 -1332.9385127826365 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 107.1449 -32 0 0.25 0.25
+( -2066.0103095522777 -1108.9385127825794 1768 ) ( -2453.989690447652 -1332.9385127826365 1768 ) ( -2453.9896904476504 -1332.9385127826408 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -206.37671 -32 0 0.25 0.25
+( -2237.98969044772 -1707.0614872174456 520 ) ( -1850.0103095522281 -1483.0614872175574 520 ) ( -2066.0103095522645 -1108.9385127825808 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 7.6867676 -31.3637 30 0.25 0.25
+( -2066.0103095522777 -1108.9385127825794 1768 ) ( -1850.010309552243 -1483.0614872175531 1600 ) ( -2237.9896904477246 -1707.0614872174356 1600 ) Level/concrete_2x2 7.6867676 -31.3637 30 0.25 0.25
+( -1850.010309552243 -1483.0614872175531 1600 ) ( -1850.0103095522281 -1483.0614872175574 520 ) ( -2237.98969044772 -1707.0614872174456 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -199.79199 -32 0 0.25 0.25
+( -2066.0103095522645 -1108.9385127825808 520 ) ( -1850.0103095522281 -1483.0614872175574 520 ) ( -1850.010309552243 -1483.0614872175531 1600 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 104.49194 -32 0 0.25 0.25
+}
+// brush 14
+{
+( -2508.9948452238577 -439.92304845413264 520 ) ( -2509.4948452238577 -439.0570230503481 520 ) ( -2508.9948452238577 -439.92304845413264 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 107.9794 0 0 0.25 0.25
+( -2432.0769515458674 -109.148748315592 1768 ) ( -2431.210926142083 -108.648748315592 1768 ) ( -2432.0769515458674 -109.148748315592 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 456.32056 0 0 0.25 0.25
+( -2508.9948452238577 -439.92304845413264 520 ) ( -2508.1288198200727 -439.42304845413264 520 ) ( -2509.4948452238577 -439.0570230503481 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -191.1853 249.51294 30 0.25 0.25
+( -2432.0769515458674 -109.148748315592 1144 ) ( -2432.5769515458674 -108.28272291180747 1144 ) ( -2431.210926142083 -108.648748315592 1144 ) Level/concrete_2x2 -191.1853 249.51294 30 0.25 0.25
+( -2508.9948452238577 -439.92304845413264 520 ) ( -2508.9948452238577 -439.92304845413264 521 ) ( -2508.1288198200727 -439.42304845413264 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 313.1377 0 0 0.25 0.25
+( -2432.0769515458674 -109.148748315592 1768 ) ( -2432.0769515458674 -109.148748315592 1769 ) ( -2432.5769515458674 -108.28272291180747 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -25.965881 0 0 0.25 0.25
+}
+// brush 15
+{
+( -3206.851251684408 -438.85125168440777 520 ) ( -3207.351251684408 -437.98522628062346 520 ) ( -3206.851251684408 -438.85125168440777 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 162.74179 0 0 0.25 0.25
+( -3113.148748315592 -89.14874831559177 1768 ) ( -3112.2827229118075 -88.64874831559177 1768 ) ( -3113.148748315592 -89.14874831559177 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 634.75464 0 0 0.25 0.25
+( -3206.851251684408 -438.85125168440777 520 ) ( -3205.985226280624 -438.35125168440777 520 ) ( -3207.351251684408 -437.98522628062346 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -219.35962 543.36926 30 0.25 0.25
+( -3113.148748315592 -89.14874831559177 1400 ) ( -3113.648748315592 -88.28272291180724 1400 ) ( -3112.2827229118075 -88.64874831559177 1400 ) Level/concrete_2x2 -219.35962 543.36926 30 0.25 0.25
+( -3206.851251684408 -438.85125168440777 520 ) ( -3206.851251684408 -438.85125168440777 521 ) ( -3205.985226280624 -438.35125168440777 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 486.95288 0 0 0.25 0.25
+( -3113.148748315592 -89.14874831559177 1768 ) ( -3113.148748315592 -89.14874831559177 1769 ) ( -3113.648748315592 -88.28272291180724 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 14.940109 0 0 0.25 0.25
+}
+// brush 16
+{
+( -3356.9948452238573 -1359.923048454133 520 ) ( -3357.4948452238573 -1359.057023050348 520 ) ( -3356.9948452238573 -1359.923048454133 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 322.30396 0 0 0.25 0.25
+( -3276.076951545868 -1036.0769515458678 1768 ) ( -3275.2109261420837 -1035.5769515458678 1768 ) ( -3276.076951545868 -1036.0769515458678 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 806.88794 0 0 0.25 0.25
+( -3356.9948452238573 -1359.923048454133 520 ) ( -3356.1288198200727 -1359.423048454133 520 ) ( -3357.4948452238573 -1359.057023050348 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 379.20435 724.7694 30 0.25 0.25
+( -3276.076951545868 -1036.0769515458678 1504 ) ( -3276.576951545868 -1035.2109261420833 1504 ) ( -3275.2109261420837 -1035.5769515458678 1504 ) Level/concrete_2x2 379.20435 724.7694 30 0.25 0.25
+( -3356.9948452238573 -1359.923048454133 520 ) ( -3356.9948452238573 -1359.923048454133 521 ) ( -3356.1288198200727 -1359.423048454133 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 668.3237 0 0 0.25 0.25
+( -3276.076951545868 -1036.0769515458678 1768 ) ( -3276.076951545868 -1036.0769515458678 1769 ) ( -3276.576951545868 -1035.2109261420833 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 188.35864 0 0 0.25 0.25
+}
+// brush 17
+{
+( -1330.0666419935815 -1748.9948452238573 520 ) ( -1330.5666419935815 -1748.1288198200727 520 ) ( -1330.0666419935815 -1748.9948452238573 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 187.5653 0 0 0.25 0.25
+( -1261.933358006418 -1451.0051547761427 1768 ) ( -1261.067332602634 -1450.5051547761427 1768 ) ( -1261.933358006418 -1451.0051547761427 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -816.84485 0 0 0.25 0.25
+( -1330.0666419935815 -1748.9948452238573 520 ) ( -1329.200616589797 -1748.4948452238573 520 ) ( -1330.5666419935815 -1748.1288198200727 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 482.3689 -41.640747 30 0.25 0.25
+( -1261.933358006418 -1451.0051547761427 1096 ) ( -1262.433358006418 -1450.1391293723586 1096 ) ( -1261.067332602634 -1450.5051547761427 1096 ) Level/concrete_2x2 482.3689 -41.640747 30 0.25 0.25
+( -1330.0666419935815 -1748.9948452238573 520 ) ( -1330.0666419935815 -1748.9948452238573 521 ) ( -1329.200616589797 -1748.4948452238573 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -8.171265 0 0 0.25 0.25
+( -1261.933358006418 -1451.0051547761427 1768 ) ( -1261.933358006418 -1451.0051547761427 1769 ) ( -1262.433358006418 -1450.1391293723586 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 67.47644 0 0 0.25 0.25
+}
+// brush 18
+{
+( -1986.0666419935815 -2612.9948452238573 520 ) ( -1986.5666419935815 -2612.1288198200727 520 ) ( -1986.0666419935815 -2612.9948452238573 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 247.22656 0 0 0.25 0.25
+( -1917.933358006418 -2315.0051547761427 1768 ) ( -1917.067332602634 -2314.5051547761427 1768 ) ( -1917.933358006418 -2315.0051547761427 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -59.36133 0 0 0.25 0.25
+( -1986.0666419935815 -2612.9948452238573 520 ) ( -1985.200616589797 -2612.4948452238573 520 ) ( -1986.5666419935815 -2612.1288198200727 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 544.4817 -461.88672 30 0.25 0.25
+( -1917.933358006418 -2315.0051547761427 1240 ) ( -1918.433358006418 -2314.1391293723586 1240 ) ( -1917.067332602634 -2314.5051547761427 1240 ) Level/concrete_2x2 544.4817 -461.88672 30 0.25 0.25
+( -1986.0666419935815 -2612.9948452238573 520 ) ( -1986.0666419935815 -2612.9948452238573 521 ) ( -1985.200616589797 -2612.4948452238573 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -188.68774 0 0 0.25 0.25
+( -1917.933358006418 -2315.0051547761427 1768 ) ( -1917.933358006418 -2315.0051547761427 1769 ) ( -1918.433358006418 -2314.1391293723586 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 127.137695 0 0 0.25 0.25
+}
+// brush 19
+{
+( -1338.0666419935815 -2548.9948452238573 520 ) ( -1338.5666419935815 -2548.1288198200727 520 ) ( -1338.0666419935815 -2548.9948452238573 521 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 173.32568 0 0 0.25 0.25
+( -1269.933358006418 -2251.0051547761427 1768 ) ( -1269.067332602634 -2250.5051547761427 1768 ) ( -1269.933358006418 -2251.0051547761427 1769 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 130.3927 0 0 0.25 0.25
+( -1338.0666419935815 -2548.9948452238573 520 ) ( -1337.200616589797 -2548.4948452238573 520 ) ( -1338.5666419935815 -2548.1288198200727 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S -48.70288 -730.46106 30 0.25 0.25
+( -1269.933358006418 -2251.0051547761427 1192 ) ( -1270.433358006418 -2250.1391293723586 1192 ) ( -1269.067332602634 -2250.5051547761427 1192 ) Level/concrete_2x2 -48.70288 -730.46106 30 0.25 0.25
+( -1338.0666419935815 -2548.9948452238573 520 ) ( -1338.0666419935815 -2548.9948452238573 521 ) ( -1337.200616589797 -2548.4948452238573 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 1.0662842 0 0 0.25 0.25
+( -1269.933358006418 -2251.0051547761427 1768 ) ( -1269.933358006418 -2251.0051547761427 1769 ) ( -1270.433358006418 -2250.1391293723586 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 53.236816 0 0 0.25 0.25
+}
+// brush 20
+{
+( -912 -4040 520 ) ( -944 -3920 520 ) ( -944 -3920 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+( -912 -4040 1768 ) ( -784 -4072 1768 ) ( -784 -4072 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -784 -4072 -8 ) ( -784 -3920 -8 ) ( -944 -3920 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 -168 0 0.25 0.25
+( -944 -3920 768 ) ( -784 -3920 768 ) ( -784 -4072 768 ) Level/concrete_2x2 0 -168 0 0.25 0.25
+( -784 -3920 520 ) ( -784 -3920 1768 ) ( -944 -3920 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -784 -4072 1768 ) ( -784 -3920 1768 ) ( -784 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+}
+// brush 21
+{
+( -912 -3792 1768 ) ( -944 -3920 1768 ) ( -944 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+( -784 -3768 520 ) ( -784 -3768 1768 ) ( -912 -3792 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -944 -3920 1768 ) ( -784 -3920 1768 ) ( -784 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -784 -3920 -8 ) ( -784 -3768 -8 ) ( -912 -3792 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 -168 0 0.25 0.25
+( -912 -3792 768 ) ( -784 -3768 768 ) ( -784 -3920 768 ) Level/concrete_2x2 0 -168 0 0.25 0.25
+( -784 -3920 1768 ) ( -784 -3768 1768 ) ( -784 -3768 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+}
+// brush 22
+{
+( -784 -3920 1768 ) ( -784 -4072 1768 ) ( -784 -4072 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+( -664 -4040 -8 ) ( -624 -3920 -8 ) ( -784 -3920 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 -168 0 0.25 0.25
+( -784 -3920 768 ) ( -624 -3920 768 ) ( -664 -4040 768 ) Level/concrete_2x2 0 -168 0 0.25 0.25
+( -624 -3920 520 ) ( -624 -3920 1768 ) ( -784 -3920 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -784 -4072 1768 ) ( -664 -4040 1768 ) ( -664 -4040 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -664 -4040 1768 ) ( -624 -3920 1768 ) ( -624 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+}
+// brush 23
+{
+( -784 -3768 1768 ) ( -784 -3920 1768 ) ( -784 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+( -784 -3920 1768 ) ( -624 -3920 1768 ) ( -624 -3920 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -784 -3920 -8 ) ( -624 -3920 -8 ) ( -664 -3792 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 -168 0 0.25 0.25
+( -664 -3792 768 ) ( -624 -3920 768 ) ( -784 -3920 768 ) Level/concrete_2x2 0 -168 0 0.25 0.25
+( -664 -3792 520 ) ( -664 -3792 1768 ) ( -784 -3768 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 0 0 0 0.25 0.25
+( -624 -3920 520 ) ( -624 -3920 1768 ) ( -664 -3792 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 168 0 0 0.25 0.25
+}
+// brush 24
+{
+( -1416 -3848 1768 ) ( -1448 -3976 1768 ) ( -1448 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+( -1288 -3824 520 ) ( -1288 -3824 1768 ) ( -1416 -3848 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1448 -3976 1768 ) ( -1288 -3976 1768 ) ( -1288 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1288 -3976 -8 ) ( -1288 -3824 -8 ) ( -1416 -3848 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 -224 0 0.25 0.25
+( -1416 -3848 992 ) ( -1288 -3824 992 ) ( -1288 -3976 992 ) Level/concrete_2x2 504 -224 0 0.25 0.25
+( -1288 -3976 1768 ) ( -1288 -3824 1768 ) ( -1288 -3824 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+}
+// brush 25
+{
+( -1288 -3824 1768 ) ( -1288 -3976 1768 ) ( -1288 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+( -1288 -3976 1768 ) ( -1128 -3976 1768 ) ( -1128 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1288 -3976 -8 ) ( -1128 -3976 -8 ) ( -1168 -3848 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 -224 0 0.25 0.25
+( -1168 -3848 992 ) ( -1128 -3976 992 ) ( -1288 -3976 992 ) Level/concrete_2x2 504 -224 0 0.25 0.25
+( -1168 -3848 520 ) ( -1168 -3848 1768 ) ( -1288 -3824 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1128 -3976 520 ) ( -1128 -3976 1768 ) ( -1168 -3848 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+}
+// brush 26
+{
+( -1288 -3976 1768 ) ( -1288 -4128 1768 ) ( -1288 -4128 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+( -1168 -4096 -8 ) ( -1128 -3976 -8 ) ( -1288 -3976 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 -224 0 0.25 0.25
+( -1288 -3976 992 ) ( -1128 -3976 992 ) ( -1168 -4096 992 ) Level/concrete_2x2 504 -224 0 0.25 0.25
+( -1128 -3976 520 ) ( -1128 -3976 1768 ) ( -1288 -3976 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1288 -4128 1768 ) ( -1168 -4096 1768 ) ( -1168 -4096 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1168 -4096 1768 ) ( -1128 -3976 1768 ) ( -1128 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+}
+// brush 27
+{
+( -1416 -4096 520 ) ( -1448 -3976 520 ) ( -1448 -3976 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+( -1416 -4096 1768 ) ( -1288 -4128 1768 ) ( -1288 -4128 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1288 -4128 -8 ) ( -1288 -3976 -8 ) ( -1448 -3976 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 -224 0 0.25 0.25
+( -1448 -3976 992 ) ( -1288 -3976 992 ) ( -1288 -4128 992 ) Level/concrete_2x2 504 -224 0 0.25 0.25
+( -1288 -3976 520 ) ( -1288 -3976 1768 ) ( -1448 -3976 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 504 0 0 0.25 0.25
+( -1288 -4128 1768 ) ( -1288 -3976 1768 ) ( -1288 -3976 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 224 0 0 0.25 0.25
+}
+// brush 28
+{
+( -1928 -3920 1768 ) ( -1960 -4048 1768 ) ( -1960 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+( -1800 -3896 520 ) ( -1800 -3896 1768 ) ( -1928 -3920 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1960 -4048 1768 ) ( -1800 -4048 1768 ) ( -1800 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1800 -4048 -8 ) ( -1800 -3896 -8 ) ( -1928 -3920 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 -296 0 0.25 0.25
+( -1928 -3920 1256 ) ( -1800 -3896 1256 ) ( -1800 -4048 1256 ) Level/concrete_2x2 78 -296 0 0.25 0.25
+( -1800 -4048 1768 ) ( -1800 -3896 1768 ) ( -1800 -3896 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+}
+// brush 29
+{
+( -1800 -3896 1768 ) ( -1800 -4048 1768 ) ( -1800 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+( -1800 -4048 1768 ) ( -1640 -4048 1768 ) ( -1640 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1800 -4048 -8 ) ( -1640 -4048 -8 ) ( -1680 -3920 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 -296 0 0.25 0.25
+( -1680 -3920 1256 ) ( -1640 -4048 1256 ) ( -1800 -4048 1256 ) Level/concrete_2x2 78 -296 0 0.25 0.25
+( -1680 -3920 520 ) ( -1680 -3920 1768 ) ( -1800 -3896 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1640 -4048 520 ) ( -1640 -4048 1768 ) ( -1680 -3920 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+}
+// brush 30
+{
+( -1800 -4048 1768 ) ( -1800 -4200 1768 ) ( -1800 -4200 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+( -1680 -4168 -8 ) ( -1640 -4048 -8 ) ( -1800 -4048 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 -296 0 0.25 0.25
+( -1800 -4048 1256 ) ( -1640 -4048 1256 ) ( -1680 -4168 1256 ) Level/concrete_2x2 78 -296 0 0.25 0.25
+( -1640 -4048 520 ) ( -1640 -4048 1768 ) ( -1800 -4048 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1800 -4200 1768 ) ( -1680 -4168 1768 ) ( -1680 -4168 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1680 -4168 1768 ) ( -1640 -4048 1768 ) ( -1640 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+}
+// brush 31
+{
+( -1928 -4168 520 ) ( -1960 -4048 520 ) ( -1960 -4048 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+( -1928 -4168 1768 ) ( -1800 -4200 1768 ) ( -1800 -4200 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1800 -4200 -8 ) ( -1800 -4048 -8 ) ( -1960 -4048 -8 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 -296 0 0.25 0.25
+( -1960 -4048 1256 ) ( -1800 -4048 1256 ) ( -1800 -4200 1256 ) Level/concrete_2x2 78 -296 0 0.25 0.25
+( -1800 -4048 520 ) ( -1800 -4048 1768 ) ( -1960 -4048 1768 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 78 0 0 0.25 0.25
+( -1800 -4200 1768 ) ( -1800 -4048 1768 ) ( -1800 -4048 520 ) Buildings/TexturesCom_HighRiseResidential0160_1_seamless_S 296 0 0 0.25 0.25
+}
+// brush 32
+{
+( 848 3936 128 ) ( 1920 2848 0 ) ( 848 3936 112 ) TexturesCom_FloorHerringbone0080_1_seamless_S -949.1914 664 0 0.1 0.1
+( 848 3936 128 ) ( 848 3936 112 ) ( 1552 4272 64 ) TexturesCom_FloorHerringbone0080_1_seamless_S 383.09766 664 0 0.1 0.1
+( 848 3936 112 ) ( 1920 2848 0 ) ( 1552 4272 64 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+( 1920 2848 0 ) ( 2192 3056 0 ) ( 1552 4272 64 ) TexturesCom_FloorHerringbone0080_1_seamless_S 915.64453 558.4922 0 0.1 0.1
+( 848 3936 128 ) ( 2192 3056 0 ) ( 1920 2848 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 879.1406 895.08203 0 0.1 0.1
+( 1552 4272 64 ) ( 2192 3056 0 ) ( 848 3936 128 ) TexturesCom_FloorHerringbone0080_1_seamless_S 474.70703 416.6211 0 0.1 0.1
+}
+// brush 33
+{
+( 848 3936 112 ) ( 848 3936 128 ) ( 304 3648 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 37.59253 664 0 0.1 0.1
+( 304 3648 176 ) ( 1504 2624 0 ) ( 848 3936 112 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 162.9668 0 0.1 0.1
+( 1504 2624 0 ) ( 1920 2848 0 ) ( 848 3936 112 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 162.9668 0 0.1 0.1
+( 304 3648 176 ) ( 1920 2848 0 ) ( 1504 2624 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 400.58423 395.64258 0 0.1 0.1
+( 848 3936 128 ) ( 1920 2848 0 ) ( 304 3648 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 400.58423 395.64258 0 0.1 0.1
+( 848 3936 112 ) ( 1920 2848 0 ) ( 848 3936 128 ) TexturesCom_FloorHerringbone0080_1_seamless_S -819.0039 664 0 0.1 0.1
+}
+// brush 34
+{
+( 1040 2432 0 ) ( 1504 2624 0 ) ( -288 3184 128 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 219.55078 0 0.1 0.1
+( -288 3184 128 ) ( 1504 2624 0 ) ( 304 3648 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 741.65137 653.5742 0 0.1 0.1
+( 304 3648 176 ) ( 1040 2432 0 ) ( -288 3184 128 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 492.9043 0 0.1 0.1
+( 304 3648 176 ) ( 1504 2624 0 ) ( 1040 2432 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 605.9927 886.6035 0 0.1 0.1
+}
+// brush 35
+{
+( -288 3184 128 ) ( -816 2704 144 ) ( 656 2192 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 363.24976 716.49805 0 0.1 0.1
+( 656 2192 0 ) ( 1040 2432 0 ) ( -288 3184 128 ) TexturesCom_FloorHerringbone0080_1_seamless_S -560.81177 60.570312 0 0.1 0.1
+( -816 2704 144 ) ( 1040 2432 0 ) ( 656 2192 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 735.75867 708.1875 0 0.1 0.1
+( -288 3184 128 ) ( 1040 2432 0 ) ( -816 2704 144 ) TexturesCom_FloorHerringbone0080_1_seamless_S -560.81177 231.54688 0 0.1 0.1
+}
+// brush 36
+{
+( -816 2704 144 ) ( -1040 2496 176 ) ( 256 1840 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 433.91016 38.86133 0 0.1 0.1
+( 256 1840 0 ) ( 656 2192 0 ) ( -816 2704 144 ) TexturesCom_FloorHerringbone0080_1_seamless_S 433.91016 38.86133 0 0.1 0.1
+( -1040 2496 176 ) ( 656 2192 0 ) ( 256 1840 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+( -816 2704 144 ) ( 656 2192 0 ) ( -1040 2496 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+}
+// brush 37
+{
+( -1040 2496 176 ) ( -1312 2032 176 ) ( 0 1488 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 890.1953 849.1094 0 0.1 0.1
+( 0 1488 0 ) ( 256 1840 0 ) ( -1040 2496 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 878.9404 103.16406 0 0.1 0.1
+( -1312 2032 176 ) ( 256 1840 0 ) ( 0 1488 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 397.38477 666.2412 0 0.1 0.1
+( -1040 2496 176 ) ( 256 1840 0 ) ( -1312 2032 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 397.38477 666.2412 0 0.1 0.1
+}
+// brush 38
+{
+( -1312 2032 176 ) ( -1424 1696 208 ) ( -144 1248 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 97.49414 272.95605 0 0.1 0.1
+( -144 1248 0 ) ( 0 1488 0 ) ( -1312 2032 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S 97.49414 272.95605 0 0.1 0.1
+( -1424 1696 208 ) ( 0 1488 0 ) ( -144 1248 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 712.08594 325.23047 0 0.1 0.1
+( -1312 2032 176 ) ( 0 1488 0 ) ( -1424 1696 208 ) TexturesCom_FloorHerringbone0080_1_seamless_S 712.08594 325.23047 0 0.1 0.1
+}
+// brush 39
+{
+( -1424 1696 208 ) ( -1520 1248 272 ) ( -240 992 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+( -240 992 0 ) ( -144 1248 0 ) ( -1424 1696 208 ) TexturesCom_FloorHerringbone0080_1_seamless_S 129.89844 549.8076 0 0.1 0.1
+( -1424 1696 208 ) ( -144 1248 0 ) ( -1520 1248 272 ) TexturesCom_FloorHerringbone0080_1_seamless_S 387.99902 222.75 0 0.1 0.1
+( -1520 1248 272 ) ( -144 1248 0 ) ( -240 992 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 387.99902 222.75 0 0.1 0.1
+}
+// brush 40
+{
+( -1552 656 288 ) ( -304 784 0 ) ( -1552 912 320 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 809.28516 0 0.1 0.1
+( -320 560 0 ) ( -304 784 0 ) ( -1552 656 288 ) TexturesCom_FloorHerringbone0080_1_seamless_S 668.64844 792.85693 0 0.1 0.1
+( -1552 912 320 ) ( -320 560 0 ) ( -1552 656 288 ) TexturesCom_FloorHerringbone0080_1_seamless_S 744.18164 67.68164 0 0.1 0.1
+( -1552 912 320 ) ( -304 784 0 ) ( -320 560 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 576.4531 0 0.1 0.1
+}
+// brush 41
+{
+( -1520 1248 272 ) ( -1552 912 320 ) ( -304 784 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 612.42773 69.94043 0 0.1 0.1
+( -304 784 0 ) ( -240 992 0 ) ( -1520 1248 272 ) TexturesCom_FloorHerringbone0080_1_seamless_S 612.42773 69.94043 0 0.1 0.1
+( -1520 1248 272 ) ( -240 992 0 ) ( -1552 912 320 ) TexturesCom_FloorHerringbone0080_1_seamless_S 940.19434 64.11914 0 0.1 0.1
+( -1552 912 320 ) ( -240 992 0 ) ( -304 784 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 612.42773 69.94043 0 0.1 0.1
+}
+// brush 42
+{
+( -1552 656 288 ) ( -1552 384 304 ) ( -336 288 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 416.06348 430.56543 0 0.1 0.1
+( -336 288 0 ) ( -320 560 0 ) ( -1552 656 288 ) TexturesCom_FloorHerringbone0080_1_seamless_S 416.06348 430.56543 0 0.1 0.1
+( -1552 656 288 ) ( -320 560 0 ) ( -1552 384 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 416.05176 429.65723 0 0.1 0.1
+( -1552 384 304 ) ( -320 560 0 ) ( -336 288 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 416.05176 429.65723 0 0.1 0.1
+}
+// brush 43
+{
+( -1536 0 304 ) ( -336 288 0 ) ( -1552 384 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 950.07227 162.88672 0 0.1 0.1
+( -1536 0 304 ) ( -256 32 0 ) ( -336 288 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 950.07227 162.88672 0 0.1 0.1
+( -1552 384 304 ) ( -256 32 0 ) ( -1536 0 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 406.7036 388.927 0 0.1 0.1
+( -336 288 0 ) ( -256 32 0 ) ( -1552 384 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 406.7036 388.927 0 0.1 0.1
+}
+// brush 44
+{
+( -1520 -624 368 ) ( -256 32 0 ) ( -1536 0 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 500.5979 271.6234 0 0.1 0.1
+( -1520 -624 368 ) ( -80 -304 0 ) ( -256 32 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S 500.5979 271.6234 0 0.1 0.1
+( -1536 0 304 ) ( -80 -304 0 ) ( -1520 -624 368 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+( -256 32 0 ) ( -80 -304 0 ) ( -1536 0 304 ) TexturesCom_FloorHerringbone0080_1_seamless_S 834.7759 571.79297 0 0.1 0.1
+}
+// brush 45
+{
+( -1024 -1312 336 ) ( -80 -304 0 ) ( -1520 -624 368 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+( -1024 -1312 336 ) ( 320 -576 0 ) ( -80 -304 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -54.50107 -874.59937 0 0.1 0.1
+( -80 -304 0 ) ( 320 -576 0 ) ( -1520 -624 368 ) TexturesCom_FloorHerringbone0080_1_seamless_S -54.50107 -875.1189 0 0.1 0.1
+( -1520 -624 368 ) ( 320 -576 0 ) ( -1024 -1312 336 ) TexturesCom_FloorHerringbone0080_1_seamless_S -54.50107 -875.1189 0 0.1 0.1
+}
+// brush 46
+{
+( -368 -1808 256 ) ( 320 -576 0 ) ( -1024 -1312 336 ) TexturesCom_FloorHerringbone0080_1_seamless_S -683.4614 -189.7456 0 0.1 0.1
+( -368 -1808 256 ) ( 784 -768 0 ) ( 320 -576 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -683.4614 -189.7456 0 0.1 0.1
+( 320 -576 0 ) ( 784 -768 0 ) ( -1024 -1312 336 ) TexturesCom_FloorHerringbone0080_1_seamless_S -683.4614 -460.54004 0 0.1 0.1
+( -1024 -1312 336 ) ( 784 -768 0 ) ( -368 -1808 256 ) TexturesCom_FloorHerringbone0080_1_seamless_S 300 -120 0 0.1 0.1
+}
+// brush 47
+{
+( -368 -1808 256 ) ( 1264 -976 0 ) ( 784 -768 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -312.94556 -493.37256 0 0.1 0.1
+( 784 -768 0 ) ( 1264 -976 0 ) ( 800 -768 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -312.94556 -197.49121 0 0.1 0.1
+( 784 -768 0 ) ( 800 -768 0 ) ( -368 -1808 256 ) TexturesCom_FloorHerringbone0080_1_seamless_S -387.6338 -456.50195 0 0.1 0.1
+( 800 -768 0 ) ( 1264 -976 0 ) ( -368 -1808 256 ) TexturesCom_FloorHerringbone0080_1_seamless_S -312.94556 -387.98438 0 0.1 0.1
+}
+// brush 48
+{
+( 320 -2496 176 ) ( 1264 -976 0 ) ( -368 -1808 256 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -168.94336 0 0.1 0.1
+( 320 -2496 176 ) ( 1696 -1136 0 ) ( 1264 -976 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -168.94336 0 0.1 0.1
+( 1264 -976 0 ) ( 1696 -1136 0 ) ( -368 -1808 256 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -831.1113 0 0.1 0.1
+( -368 -1808 256 ) ( 1696 -1136 0 ) ( 320 -2496 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -831.1113 0 0.1 0.1
+}
+// brush 49
+{
+( 320 -2496 176 ) ( 384 -3568 208 ) ( 320 -2496 160 ) TexturesCom_FloorHerringbone0080_1_seamless_S 332.88647 664 0 0.1 0.1
+( 320 -2496 160 ) ( 1696 -1136 0 ) ( 320 -2496 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S -435.35156 664 0 0.1 0.1
+( 384 -3568 208 ) ( 1696 -1136 0 ) ( 320 -2496 160 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -168.94336 0 0.1 0.1
+( 384 -3568 208 ) ( 2160 -1344 0 ) ( 1696 -1136 0 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -168.94336 0 0.1 0.1
+( 1696 -1136 0 ) ( 2160 -1344 0 ) ( 320 -2496 176 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -831.1113 0 0.1 0.1
+( 320 -2496 176 ) ( 2160 -1344 0 ) ( 384 -3568 208 ) TexturesCom_FloorHerringbone0080_1_seamless_S -235.17139 -831.1113 0 0.1 0.1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Unnamed"
+"_tb_id" "1"
+// brush 0
+{
+( -867.8376881189648 191.27268022218016 -1504 ) ( -867.5788690738624 192.23860604846925 -1504 ) ( -867.8376881189648 191.27268022218016 -1503 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 9.97998 -239.99951 0 0.3 0.3
+( -524.7206321070258 977.248943142187 -1984 ) ( -524.7206321070258 977.248943142187 -1872 ) ( -401.0821263420251 944.1201053690643 -1872 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -44.769287 -231.99951 0 0.3 0.3
+( -806.0184352364645 174.70826133561877 -2016 ) ( -805.0525094101754 174.44944229051623 -2016 ) ( -805.759616191362 175.67418716190787 -2016 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 119.77173 -247.85767 345 0.3 0.3
+( -375.64086212797343 1533.6222190846904 -1840 ) ( -375.3820430828709 1534.5881449109795 -1840 ) ( -374.67493630168434 1533.3634000395878 -1840 ) Level/alphalt_2x2 119.77173 8.142334 345 0.3 0.3
+( -375.64086212797343 1533.6222190846904 -1456 ) ( -374.67493630168434 1533.3634000395878 -1456 ) ( -375.64086212797343 1533.6222190846904 -1455 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -251.10803 -239.99951 0 0.3 0.3
+( -375.64086212797343 1533.6222190846904 -1456 ) ( -375.64086212797343 1533.6222190846904 -1455 ) ( -375.3820430828709 1534.5881449109795 -1456 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 209.5918 -235.99951 0 0.3 0.3
+}
+// brush 1
+{
+( -720 208 -1504 ) ( -720 209 -1504 ) ( -720 208 -1503 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 0 -144 0 0.5 0.5
+( -656 208 -1504 ) ( -656 208 -1503 ) ( -655 208 -1504 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -48 -504 0 0.4 0.4
+( -656 208 -2016 ) ( -655 208 -2016 ) ( -656 209 -2016 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -48 0 0 0.5 0.5
+( -592 1632 -1776 ) ( -592 1633 -1776 ) ( -591 1632 -1776 ) Level/alphalt_2x2 -48 0 0 0.5 0.5
+( -592 752 -2000 ) ( -464 752 -1904 ) ( -592 752 -1904 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -48 -504 0 0.4 0.4
+( -592 1632 -1456 ) ( -592 1632 -1455 ) ( -592 1633 -1456 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 0 -504 0 0.4 0.4
+}
+// brush 2
+{
+( -556.2129470519152 1532.8648678528425 -1488 ) ( -555.7124448960916 1533.7307587043797 -1488 ) ( -556.2129470519152 1532.8648678528425 -1487 ) Buildings/TexturesCom_BuildingsVenice0187_1_S -387.62158 -413 0 0.4 0.4
+( -401.17255720675894 1560 -1488 ) ( -401.17255720675894 1560 -1487 ) ( -400.30653180297463 1559.5000000000002 -1488 ) Buildings/TexturesCom_BuildingsVenice0187_1_S -239.58813 -404 0 0.4 0.4
+( -451.7128129211036 1472.461709275205 -2000 ) ( -450.8467875173193 1471.9617092752053 -2000 ) ( -451.21231076528 1473.3276001267423 -2000 ) Buildings/TexturesCom_BuildingsVenice0187_1_S 69.225586 203.84082 330 0.4 0.4
+( 315.71281292110336 2673.6818842642438 -1864 ) ( 316.2128129211034 2674.5479096680283 -1864 ) ( 316.5788383248879 2673.1818842642438 -1864 ) Level/alphalt_2x2 -186.77417 -52.159424 330 0.4 0.4
+( -206.83790056067903 1767.8041122907025 -1864 ) ( -291.36784672275365 1815.8041122907025 -1824 ) ( -206.83790056067903 1767.8041122907025 -1928 ) Buildings/TexturesCom_BuildingsVenice0187_1_S 90.218506 0 0 0.4 0.4
+( 315.71281292110336 2673.6818842642438 -1440 ) ( 315.71281292110336 2673.6818842642438 -1439 ) ( 316.2128129211034 2674.5479096680283 -1440 ) Buildings/TexturesCom_BuildingsVenice0187_1_S 276 -1 0 0.4 0.4
+}
+// brush 3
+{
+( -442.291243744893 1425.667371041424 -2016 ) ( -442.0324246997907 1426.6332968677123 -2016 ) ( -442.291243744893 1425.667371041424 -2015 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 339.88135 -576 0 0.3346065 0.3
+( -356.2447463542632 1216.8371502260293 -1977.3835585158088 ) ( -361.02648220582637 1198.9914690796231 -1625.3835585158088 ) ( -270.516814213948 1108.4818010877436 -1625.3835585158088 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -511.36816 -986.07666 1.7871745 -0.24090406 0.33967838
+( -395.55693552769986 1413.1449508957992 -1840 ) ( -394.5910097014107 1412.8861318506963 -1840 ) ( -395.29811648259744 1414.110876722088 -1840 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -148.37012 135.23096 315 0.3 0.3
+( -320.20476281434077 1508.9053292752553 -1792 ) ( -319.94594376923845 1509.8712551015433 -1792 ) ( -319.2388369880519 1508.6465102301524 -1792 ) Level/rollup_2x2 -81.34192 -170.01917 345 1 1
+( -424.56029527817464 1403.6948161519274 -1824 ) ( -300.92178951317396 1370.5659783788046 -1800 ) ( -424.56029527817464 1403.6948161519274 -1800 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -213.16492 -576 0 0.3346065 0.3
+( -391.26717183500654 1527.9464443845497 -2000 ) ( -391.26717183500654 1527.9464443845497 -1999 ) ( -391.0083527899037 1528.9123702108404 -2000 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -48.77954 -271 0 0.36449212 0.8
+}
+// brush 4
+{
+( -443.42008151801576 1422.0288652764232 -2016 ) ( -443.16126247291345 1422.9947911027114 -2016 ) ( -443.42008151801576 1422.0288652764232 -2015 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 350.75537 -576 0 0.3346065 0.3
+( -421.5480283296588 1415.5111236075525 -1832 ) ( -421.5480283296588 1415.5111236075525 -1824 ) ( -297.9095225646581 1382.3822858344297 -1824 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -284.29517 -164.46729 0 0.2664584 0.317959
+( -396.6857733008226 1409.5064451307985 -1840 ) ( -395.7198474745335 1409.2476260856956 -1840 ) ( -396.42695425572015 1410.4723709570874 -1840 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -154.28564 123.99414 315 0.3 0.3
+( -321.33360058746354 1505.2668235102547 -1792 ) ( -321.0747815423612 1506.2327493365426 -1792 ) ( -320.36767476117467 1505.008004465152 -1792 ) Level/rollup_2x2 -81.19324 -173.82593 345 1 1
+( -321.33360058746354 1505.2668235102547 -2000 ) ( -320.36767476117467 1505.008004465152 -2000 ) ( -321.33360058746354 1505.2668235102547 -1999 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -309.29065 -576 0 0.3346065 0.3
+( -392.39600960812936 1524.307938619549 -2000 ) ( -392.39600960812936 1524.307938619549 -1999 ) ( -392.1371905630265 1525.2738644458398 -2000 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -32.796875 -261 0 0.36449212 0.8
+}
+// brush 5
+{
+( -39.05800795103788 2128.8242430429195 -1472 ) ( -39.05800795103788 2128.8242430429195 -1471 ) ( -38.350901169851326 2128.1171362617333 -1472 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -834.94025 -160 0 0.25 0.25
+( -210.23376490866042 2108 -1472 ) ( -209.52665812747364 2108.707106781183 -1472 ) ( -210.23376490866042 2108 -1471 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 319.13864 -160 0 0.25 0.25
+( -135.0580079512696 2032.8242430426412 -1984 ) ( -134.35090117008303 2032.117136261455 -1984 ) ( -134.3509011700828 2033.5313498238284 -1984 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -180.82422 -218.35498 315 0.25 0.25
+( 917.1168824543151 2994.489465456344 -1828 ) ( 917.8239892355018 2995.1965722375303 -1828 ) ( 917.8239892355018 2993.782358675158 -1828 ) Level/alphalt_2x2 75.17578 -98.35498 315 0.25 0.25
+( 256 2288.117749006309 -1976 ) ( 256 2288.117749006309 -1864 ) ( 168 2364 -1840 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -167.17566 -160 0 0.25 0.25
+( 939.7442994522848 2971.862048458375 -1424 ) ( 939.7442994522848 2971.862048458375 -1423 ) ( 940.4514062334713 2972.569155239561 -1424 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -65.29697 -160 0 0.25 0.25
+}
+// brush 6
+{
+( -666.2411422975038 1602.6219826929537 -1488 ) ( -665.5335852957226 1603.328829539159 -1488 ) ( -666.2411422975038 1602.6219826929537 -1487 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 365.02625 -600.666 0 0.3 0.3
+( -212.9505106235705 1794.9376560170929 -1864 ) ( -212.9505106235705 1794.9376560170929 -1928 ) ( -282.17685455142185 1863.1800556272037 -1824 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -413.3625 -600.666 0 0.3 0.3
+( -580.9352517141215 1517.2303869045575 -2000 ) ( -580.228144932935 1516.523280123371 -2000 ) ( -580.2276947123403 1517.9372337507625 -2000 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 35.78662 -155.229 315 0.3 0.3
+( 471.23963869146434 2478.8956093182587 -1824 ) ( 471.946745472651 2479.6027160994454 -1824 ) ( 471.946745472651 2478.188502537072 -1824 ) Level/alphalt_2x2 35.78662 -57.229004 315 0.3 0.3
+( 471.23963869146434 2478.8956093182587 -1440 ) ( 471.23963869146434 2478.8956093182587 -1439 ) ( 471.946745472651 2479.6027160994454 -1440 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 241.25879 -622.666 0 0.3 0.3
+( 16.32814336931068 2030.9150051033303 -1992 ) ( 16.32814336931068 2030.9150051033303 -1872 ) ( -32.83330808026261 2102.06324242095 -1824 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 210.81396 -623.666 180 0.3 -0.3
+}
+// brush 7
+{
+( -178.23376490866042 2120 -1472 ) ( -177.52665812747364 2120.707106781183 -1472 ) ( -178.23376490866042 2120 -1471 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 191.13867 -522 0 0.25 0.25
+( 306.3120026584927 2321.3540224806075 -1976 ) ( 218.31200265849273 2397.2362734742983 -1840 ) ( 306.3120026584927 2321.3540224806075 -1864 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -12.1883545 -522 0 0.25 0.25
+( -103.05800795126959 2044.8242430426412 -1984 ) ( -102.35090117008303 2044.117136261455 -1984 ) ( -102.3509011700828 2045.5313498238284 -1984 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -237.39258 606.0952 315 0.25 0.25
+( 949.1168824543151 3006.489465456344 -1832 ) ( 949.8239892355018 3007.1965722375303 -1832 ) ( 949.8239892355018 3005.782358675158 -1832 ) Level/alphalt_2x2 18.607422 26.095215 315 0.25 0.25
+( 971.7442994522848 2983.862048458375 -1424 ) ( 971.7442994522848 2983.862048458375 -1423 ) ( 972.4514062334713 2984.569155239561 -1424 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -203.48865 -522 0 0.25 0.25
+( 544 2556.117749006227 -1968 ) ( 544 2556.117749006227 -1864 ) ( 440 2664 -1832 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -267.17578 -522 0 0.25 0.25
+}
+// brush 8
+{
+( -1538.4511126719738 880.0896207614808 -1984 ) ( -1538.451112672009 880.0896207614592 -1520 ) ( -1361.859217504078 178.62757417105445 -1520 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -578.3335 442 180 0.4 0.4
+( -1501.0493805002343 710.351785606666 -1520 ) ( -1501.049380500199 710.3517856066876 -1984 ) ( -1313.8962913621497 751.5909690137228 -1984 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 576.594 -223 0 0.4 0.4
+( -1361.8592175040446 178.62757417108867 -1984 ) ( -1174.4880998349383 215.04882994714427 -1984 ) ( -1351.2980235339244 921.328804168516 -1984 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 478.0857 441.29346 10.999969 0.4 0.4
+( -1351.2980235339046 921.3288041685128 -1568 ) ( -1174.4880998349163 215.04882994712074 -1568 ) ( -1361.859217504078 178.62757417105445 -1568 ) Level/alphalt_2x2 -33.91455 245.29346 10.999969 0.4 0.4
+( -1174.4880998349383 215.04882994714427 -1984 ) ( -1361.8592175040446 178.62757417108867 -1984 ) ( -1361.859217504078 178.62757417105445 -1520 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 625.178 -404 0 0.4 0.4
+( -1070.658216696172 241.04157274815358 -1984 ) ( -1070.6582166961502 241.0415727481299 -1520 ) ( -1247.468140395139 947.3215469695223 -1520 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 205 -224 180 0.4 -0.4
+}
+// brush 9
+{
+( -368.4849821392954 2755.7574983414947 -1824 ) ( -368.4849821392954 2755.7574983414947 -1664 ) ( -304.48498048748365 2644.906247610761 -1664 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 264.22168 -124 0 0.5 0.5
+( -1404.577021756641 2342.3215475080333 -1424 ) ( -1403.7109963603073 2342.8215475209377 -1424 ) ( -1404.577021756641 2342.3215475080333 -1423 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 207.66823 -168 0 0.5 0.5
+( -1372.5770209307352 2286.895922142666 -1936 ) ( -1372.0770209178304 2286.0298967463323 -1936 ) ( -1371.7109955344017 2287.395922155571 -1936 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 472.59766 -540.6499 345 0.5 0.5
+( -107.3568557254141 2943.4703151537087 -1584 ) ( -106.49083032907993 2943.970315166614 -1584 ) ( -106.85685571250906 2942.6042897573748 -1584 ) Level/alphalt_2x2 216.59766 -28.649902 345 0.5 0.5
+( -56.08655762633384 2854.6675569828462 -1376 ) ( -56.08655762633384 2854.6675569828462 -1375 ) ( -55.22053223000012 2855.167556995751 -1376 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -152.66357 -864 0 0.5 0.5
+( 718.1617254575965 3420.08370662239 -1376 ) ( 718.6617254705004 3419.2176812260554 -1376 ) ( 718.1617254575965 3420.08370662239 -1375 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 135.97168 -215 0 0.5 0.5
+}
+// brush 10
+{
+( -106.96097592558453 -1698.659619644761 -1424 ) ( -106.46097593848845 -1697.7935942335268 -1424 ) ( -106.96097592558453 -1698.659619644761 -1423 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 661.12305 -311 0 0.5 0.5
+( 1887.7778067121344 -2998.1242207726655 -1472 ) ( 1886.9117813008988 -2997.6242207855703 -1472 ) ( 1887.7778067121344 -2998.1242207726655 -1471 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -201.93018 -264 180 0.5 -0.5
+( 1919.7778058862277 -2942.6985944536245 -1984 ) ( 1920.277805873323 -2941.83256904239 -1984 ) ( 1918.9117804749926 -2942.1985944665294 -1984 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 816.60815 -303.7373 15.000003 0.5 0.5
+( 718.5576194616556 -2175.272986510994 -1632 ) ( 717.6915940504205 -2174.772986523898 -1632 ) ( 719.0576194487508 -2174.406961099759 -1632 ) Level/alphalt_2x2 48.60791 -9.737305 15.000003 0.5 0.5
+( 809.518595387387 -2017.7239492797441 -1424 ) ( 809.518595387387 -2017.7239492797441 -1423 ) ( 808.6525699761519 -2017.2239492926499 -1424 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -21.79956 -34 180 0.5 -0.5
+( 1011.6857506439085 -2307.5601692219425 -1872 ) ( 1011.6857506439085 -2307.5601692219425 -1712 ) ( 1075.685748992096 -2196.7089165838597 -1712 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 259.44775 -313 0 0.5 0.5
+}
+// brush 11
+{
+( 902.0195657335801 2802.9755714022135 -1968 ) ( 814.0304947680761 2938.2402846669215 -1832 ) ( 902.0195657335801 2802.9755714022135 -1880 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -135.71289 -160 180 0.2818015 -0.25
+( -229.90517350164794 2382.4941263389032 -1472 ) ( -229.03914809786426 2382.9941263388996 -1472 ) ( -229.90517350164794 2382.4941263389032 -1471 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 229.0708 -160 0 0.30618623 0.25
+( -176.74788597623694 2290.423003552389 -1984 ) ( -176.24788597623683 2289.556978148605 -1984 ) ( -175.88186057245218 2290.9230035523897 -1984 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -72.76758 -321.4746 300 0.25 0.25
+( 1088.4722890128064 2946.9973777101804 -1828 ) ( 1089.338314416591 2947.4973777101804 -1828 ) ( 1088.9722890128064 2946.131352306397 -1828 ) Level/alphalt_2x2 -72.76758 38.52539 300 0.25 0.25
+( 1104.4722890128064 2919.2845647890786 -1424 ) ( 1104.4722890128064 2919.2845647890786 -1423 ) ( 1105.3383144165907 2919.7845647890786 -1424 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 131.2976 -160 0 0.30618623 0.25
+( 1088.4722890128064 2946.9973777101804 -1424 ) ( 1088.9722890128064 2946.131352306397 -1424 ) ( 1088.4722890128064 2946.9973777101804 -1423 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -93.85547 -160 180 0.30618623 -0.25
+}
+// brush 12
+{
+( -504.0757588732323 -2120.675753854494 -1472 ) ( -504.46649001543835 -2119.755249006863 -1472 ) ( -504.0757588732323 -2120.675753854494 -1471 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 12.844177 -264 0 0.5314537 0.5
+( -1315.1076649431702 117.58658731109799 -1424 ) ( -1314.1871600955394 117.97731845330304 -1424 ) ( -1315.1076649431702 117.58658731109799 -1423 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -261.6482 -311 0 0.5314537 0.5
+( -445.16344862490666 -2095.6689607533176 -1984 ) ( -444.2429437772764 -2095.2782296111122 -1984 ) ( -445.5541797671126 -2094.7484559056884 -1984 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 209.47473 -622.79346 338 0.5 0.5
+( -942.6522848777327 -759.8632646268909 -1504 ) ( -943.0430160199382 -758.9427597792605 -1504 ) ( -941.7317800301023 -759.4725334846848 -1504 ) Level/alphalt_2x2 -46.52527 -110.79346 338 0.5 0.5
+( -788.1621642476925 -1041.9214193179325 -1872 ) ( -788.1621642476925 -1041.9214193179325 -1712 ) ( -670.3375437510408 -991.9078331155818 -1712 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 266.28882 -220 0 0.5314537 0.5
+( -810.7627884016825 -703.8794925308164 -1424 ) ( -810.7627884016825 -703.8794925308164 -1423 ) ( -811.1535195438887 -702.9589876831863 -1424 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -316.39502 -34 0 0.5314537 0.5
+}
+// brush 13
+{
+( 352 -3264 -1952 ) ( 312 -2496 -1952 ) ( 312 -2496 -1440 ) panic_wall 0 -416 0 1 1
+( 352 -2472 -1952 ) ( 352 -2472 -1440 ) ( 312 -2496 -1440 ) panic_wall -57.871338 -416 0 1 1
+( 352 -3264 -1952 ) ( 400 -3256 -1952 ) ( 352 -2472 -1952 ) panic_wall 0 0 0 1 1
+( 352 -2472 -1440 ) ( 400 -3256 -1440 ) ( 352 -3264 -1440 ) walltop 0 0 0 1 1
+( 352 -3264 -1440 ) ( 400 -3256 -1440 ) ( 400 -3256 -1952 ) panic_wall -64 -416 0 1 1
+( 400 -3256 -1952 ) ( 400 -3256 -1440 ) ( 352 -2472 -1440 ) panic_wall 0 -416 0 1 1
+}
+// brush 14
+{
+( -2054.1242207726655 336.22219328786616 -1504 ) ( -2053.6242207855703 337.08821869910116 -1504 ) ( -2054.1242207726655 336.22219328786616 -1503 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 207.66821 -328 0 0.5 0.5
+( -1363.5601692219425 1212.3142493560915 -1904 ) ( -1363.5601692219425 1212.3142493560915 -1744 ) ( -1252.7089165838604 1148.3142510079037 -1744 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 384.22168 -287 0 0.5 0.5
+( -1998.6985944536245 304.2221941137723 -2016 ) ( -1997.8325690423894 303.7221941266771 -2016 ) ( -1998.1985944665294 305.0882195250073 -2016 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 472.59766 -540.6499 345 0.5 0.5
+( -1231.272986510994 1505.4423805383444 -1568 ) ( -1230.7729865238987 1506.3084059495793 -1568 ) ( -1230.406961099759 1504.942380551249 -1568 ) Level/alphalt_2x2 216.59766 -28.649902 345 0.5 0.5
+( -754.6596196447614 2330.9609759255845 -1456 ) ( -753.7935942335267 2330.4609759384884 -1456 ) ( -754.6596196447614 2330.9609759255845 -1455 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S 135.97144 -375 0 0.5 0.5
+( -1142.470226812158 1454.1720850857912 -1456 ) ( -1142.470226812158 1454.1720850857912 -1455 ) ( -1141.970226825063 1455.0381104970263 -1456 ) Buildings/TexturesCom_HighRiseTowerblocks0048_1_seamless_S -152.66357 -98 0 0.5 0.5
+}
+// brush 15
+{
+( -352 -1824 -1440 ) ( 312 -2496 -1440 ) ( 312 -2496 -1952 ) panic_wall 192 -416 0 1 1
+( -320 -1792 -1440 ) ( -352 -1824 -1440 ) ( -352 -1824 -1952 ) panic_wall 198.29211 -416 0 1 1
+( 312 -2496 -1952 ) ( 352 -2472 -1952 ) ( -320 -1792 -1952 ) panic_wall 0 0 0 1 1
+( -320 -1792 -1440 ) ( 352 -2472 -1440 ) ( 312 -2496 -1440 ) walltop 0 0 0 1 1
+( 312 -2496 -1440 ) ( 352 -2472 -1440 ) ( 352 -2472 -1952 ) panic_wall 0 -416 0 1 1
+( 352 -2472 -1952 ) ( 352 -2472 -1440 ) ( -320 -1792 -1440 ) panic_wall 40 -416 0 1 1
+}
+// brush 16
+{
+( -208 3328 -1976 ) ( -208 3328 -1464 ) ( -1104 2504 -1440 ) panic_wall 47.1015 -440 0 0.9790269 1
+( -1056 2472 -1976 ) ( -1104 2504 -1976 ) ( -1104 2504 -1440 ) panic_wall 98.14575 -440 0 0.8796528 1
+( -1056 2472 -1976 ) ( -168 3280 -1976 ) ( -208 3328 -1976 ) panic_wall 25.430542 -471.85205 345 1 1
+( -1104 2504 -1440 ) ( -208 3328 -1464 ) ( -1056 2472 -1440 ) walltop 25.430542 -215.85205 345 1 1
+( -208 3328 -1464 ) ( -168 3280 -1464 ) ( -1056 2472 -1440 ) walltop 25.430542 -215.85205 345 1 1
+( -1056 2472 -1440 ) ( -168 3280 -1464 ) ( -168 3280 -1976 ) panic_wall 240.99219 -440 0 0.98326343 1
+( -208 3328 -1464 ) ( -208 3328 -1976 ) ( -168 3280 -1976 ) panic_wall 104.0293 -440 0 -1.0315597 1
+}
+// brush 17
+{
+( -960 -32 -1504 ) ( -960 -31 -1504 ) ( -960 -32 -1503 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 240 -144 0 0.5 0.5
+( -896 -32 -1504 ) ( -896 -32 -1503 ) ( -895 -32 -1504 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 192 -144 0 0.5 0.5
+( -896 -32 -2016 ) ( -895 -32 -2016 ) ( -896 -31 -2016 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 192 -240 0 0.5 0.5
+( -832 1392 -1712 ) ( -832 1393 -1712 ) ( -831 1392 -1712 ) Level/alphalt_2x2 192 -240 0 0.5 0.5
+( -800 688 -1888 ) ( -672 688 -1760 ) ( -800 688 -1760 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 166 -129 0 0.5 0.5
+( -800 1392 -1456 ) ( -800 1392 -1455 ) ( -800 1393 -1456 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 22.857117 -129.14282 0 0.5 0.5
+}
+// brush 18
+{
+( 1380.7739124851307 3318.90316466574 -1976 ) ( 1380.77391248514 3318.9031646657436 -1880 ) ( 1470.8283396065508 3094.633061732602 -1880 ) Buildings/TexturesCom_BuildingsVenice0012_S 638.1211 -183.6665 0 0.31494442 0.3
+( 1680.241912220079 3458.832981740692 -1976 ) ( 1680.241912220099 3458.8329817407 -1880 ) ( 1380.77391248514 3318.9031646657436 -1880 ) Buildings/TexturesCom_BuildingsVenice0012_S -392.38818 -183.6665 0 0.31723213 0.3
+( 1470.8283396065522 3094.6330617325725 -1976 ) ( 1772.371280812189 3238.61307840876 -1976 ) ( 1680.241912220079 3458.832981740692 -1976 ) Buildings/TexturesCom_BuildingsVenice0012_S 223.07129 -21.927246 264 0.3 0.3
+( 1680.241912220099 3458.8329817407 -1880 ) ( 1772.3712808122018 3238.613078408796 -1880 ) ( 1470.8283396065508 3094.633061732602 -1880 ) Level/alphalt_2x2 223.07129 -21.927246 264 0.3 0.3
+( 1470.8283396065508 3094.633061732602 -1880 ) ( 1772.3712808122018 3238.613078408796 -1880 ) ( 1772.371280812189 3238.61307840876 -1976 ) Buildings/TexturesCom_BuildingsVenice0012_S -314.41797 -183.6665 0 0.31646144 0.3
+( 1772.371280812189 3238.61307840876 -1976 ) ( 1772.3712808122018 3238.613078408796 -1880 ) ( 1680.241912220099 3458.8329817407 -1880 ) Buildings/TexturesCom_BuildingsVenice0012_S -164.22949 -200.6665 0 0.30462134 0.3
+}
+// brush 19
+{
+( -1260.4213391127128 7.775279178819801 -1472 ) ( -1260.1625200676103 8.741205005108867 -1472 ) ( -1260.4213391127128 7.775279178819801 -1471 ) Buildings/TexturesCom_BuildingsVenice0005_S 207.66821 -128 0 0.5 0.5
+( -820.1369811132781 1032.7463441855475 -1872 ) ( -820.1369811132781 1032.7463441855475 -1712 ) ( -696.4984753482773 999.6175064124247 -1712 ) Buildings/TexturesCom_BuildingsVenice0005_S 352.22168 -288 0 0.5 0.5
+( -1198.6020862302125 -8.789139707741583 -1984 ) ( -1197.6361604039234 -9.047958752844096 -1984 ) ( -1198.34326718511 -7.823213881452517 -1984 ) Buildings/TexturesCom_BuildingsVenice0005_S 472.59766 -220.6499 345 0.5 0.5
+( -768.2245131217213 1350.12481804133 -1744 ) ( -767.9656940766188 1351.090743867619 -1744 ) ( -767.2585872954323 1349.8659989962275 -1744 ) Level/alphalt_2x2 216.59766 -28.649902 345 0.5 0.5
+( -690.855163379793 1638.8711622268506 -1424 ) ( -689.889237553504 1638.6123431817482 -1424 ) ( -690.855163379793 1638.8711622268506 -1423 ) Buildings/TexturesCom_BuildingsVenice0005_S 135.97144 -287 0 0.5 0.5
+( -669.1779055671886 1323.5853595340495 -1424 ) ( -669.1779055671886 1323.5853595340495 -1423 ) ( -668.9190865220861 1324.5512853603386 -1424 ) Buildings/TexturesCom_BuildingsVenice0005_S 21.021729 -288 0 0.5 0.5
+}
+// brush 20
+{
+( 1143.6902511131882 2928.7792790014305 -1976 ) ( 1037.2959060285934 3137.590103757368 -1976 ) ( 1037.2959060285898 3137.5901037573753 -1784 ) Buildings/TexturesCom_BuildingsVenice0012_S 103.072266 -189.6665 180 0.3086537 -0.3
+( 1001.4759965149244 3119.338962715467 -1976 ) ( 1803.6659700683065 3546.67702456007 -1976 ) ( 1803.6659700682942 3546.677024560071 -1784 ) Buildings/TexturesCom_BuildingsVenice0012_S -401.0752 -183.6665 0 0.3090396 0.3
+( 1107.870341599519 2910.5281379595294 -1976 ) ( 1936.6555700447836 3332.815304017862 -1976 ) ( 1803.6659700683065 3546.67702456007 -1976 ) Buildings/TexturesCom_BuildingsVenice0012_S -27.631836 -206.74878 267 0.3 0.3
+( 1803.6659700682942 3546.677024560071 -1880 ) ( 1936.6555700447514 3332.8153040178863 -1880 ) ( 1107.8703415995014 2910.52813795956 -1880 ) Level/alphalt_2x2 228.36816 -44.74878 267 0.3 0.3
+( 1936.6555700447514 3332.8153040178863 -1784 ) ( 1936.6555700447836 3332.815304017862 -1976 ) ( 1107.870341599519 2910.5281379595294 -1976 ) Buildings/TexturesCom_BuildingsVenice0012_S -403.78418 -195.6665 0 0.3086537 0.3
+( 1430.326350501485 3074.8276808376486 -1960 ) ( 1430.3263505014856 3074.827680837659 -1912 ) ( 1387.1411904822435 3167.9572248753652 -1880 ) Buildings/TexturesCom_BuildingsVenice0012_S -45.456055 -200.6665 0 0.30789417 0.3
+}
+// brush 21
+{
+( 1707.7552031419589 3476.545864020969 -1984 ) ( 1707.755203141966 3476.5458640209695 -1848 ) ( 1795.3717602007619 3255.514312314932 -1848 ) Buildings/TexturesCom_BuildingsVenice0087_S 733.1885 -119.33301 0 0.3050679 0.3
+( 1881.1236329676105 3559.189172223924 -1848 ) ( 1707.755203141966 3476.5458640209695 -1848 ) ( 1707.7552031419589 3476.545864020969 -1984 ) Buildings/TexturesCom_BuildingsVenice0087_S -447.4414 -131.33301 0 0.31977078 0.3
+( 1795.371760200781 3255.5143123148678 -1984 ) ( 1998.871037468747 3336.5715225453077 -1984 ) ( 1881.1236329676321 3559.189172223938 -1984 ) Buildings/TexturesCom_BuildingsVenice0087_S 391.36133 -140.17969 263 0.3 0.3
+( 1881.1236329676105 3559.189172223924 -1848 ) ( 1998.8710374686925 3336.5715225453573 -1848 ) ( 1795.3717602007619 3255.514312314932 -1848 ) Level/alphalt_2x2 135.36133 -140.17969 263 0.3 0.3
+( 1998.8710374686925 3336.5715225453573 -1848 ) ( 1998.871037468747 3336.5715225453077 -1984 ) ( 1795.371760200781 3255.5143123148678 -1984 ) Buildings/TexturesCom_BuildingsVenice0087_S -310.82227 -122.33301 0 0.31887224 0.3
+( 1881.1236329676321 3559.189172223938 -1984 ) ( 1998.871037468747 3336.5715225453077 -1984 ) ( 1998.8710374686925 3336.5715225453573 -1848 ) Buildings/TexturesCom_BuildingsVenice0087_S -90.555664 -118.33301 180 0.32324564 -0.3
+}
+// brush 22
+{
+( 574.6147589202242 2571.4189926931767 -1968 ) ( 488.7716737198761 2694.242218521069 -1832 ) ( 574.6147589202242 2571.4189926931767 -1864 ) Buildings/TexturesCom_BuildingsVenice0005_S -137.58008 -238.57129 0 0.35 0.35
+( -212.09305229378253 2250.0589379445696 -1472 ) ( -211.2840352994079 2250.6467231968586 -1472 ) ( -212.09305229378253 2250.0589379445696 -1471 ) Buildings/TexturesCom_BuildingsVenice0005_S 122.850586 -213.33301 0 0.35 0.35
+( -149.60291297517222 2164.048639978749 -1984 ) ( -149.01512772287964 2163.2396229843744 -1984 ) ( -148.79389598079692 2164.636425231042 -1984 ) Buildings/TexturesCom_BuildingsVenice0005_S -12.595703 -66.37891 306 0.35 0.35
+( 1040.0555431614691 2949.2777516032384 -1880 ) ( 1040.8645601558442 2949.86553685553 -1880 ) ( 1040.6433284137615 2948.468734608863 -1880 ) Level/alphalt_2x2 -12.595703 189.6211 306 0.35 0.35
+( 1058.8646712348286 2923.3892077832397 -1424 ) ( 1058.8646712348286 2923.3892077832397 -1423 ) ( 1059.6736882292034 2923.976993035532 -1424 ) Buildings/TexturesCom_BuildingsVenice0005_S 94.208984 -235.57129 0 0.35 0.35
+( 865.2913291893109 2782.9969841392935 -1968 ) ( 865.2913291893109 2782.9969841392935 -1880 ) ( 763.6452305394537 2908.323161407909 -1832 ) Buildings/TexturesCom_BuildingsVenice0005_S 657.4424 -234.57129 180 0.35 -0.35
+}
+// brush 23
+{
+( 428.8624992479746 2761.010465260213 -2016 ) ( 350.5607708995926 2876.831955118713 -2016 ) ( 339.2782726892274 2865.5494569083467 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S 376.66602 -186.06055 0.80113024 0.30333164 0.30333164
+( 350.5607708995926 2876.831955118713 -2016 ) ( 831.5526809779658 3204.297954665606 -1712 ) ( 339.2782726892274 2865.5494569083467 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S 791.1864 -336 0 0.3 0.3
+( 350.5607708995926 2876.831955118713 -2016 ) ( 831.5529508934036 3204.2981918080313 -1892.4340247365858 ) ( 831.5526809779658 3204.297954665606 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S 791.15137 -335.9995 0 0.3 0.3
+( 350.5607708995926 2876.831955118713 -2016 ) ( 831.5872418808626 3204.2601234805134 -2016 ) ( 831.5529508934036 3204.2981918080313 -1892.4340247365858 ) Buildings/TexturesCom_BuildingsDerelict0035_S 794.4629 -335.9995 0 0.3 0.3
+( 428.8624992479746 2761.010465260213 -2016 ) ( 907.8520746973024 3112 -2016 ) ( 831.5872418808626 3204.2601234805134 -2016 ) Buildings/TexturesCom_BuildingsDerelict0035_S -248.9707 341.65576 285 0.3 0.3
+( 831.5864306139499 3204.2601235561233 -1712 ) ( 907.8512634911684 3112 -1712 ) ( 417.58000104099847 2749.7279670448333 -1712 ) Level/alphalt_2x2 15.030273 85.65625 285 0.3 0.3
+( 417.58000104099847 2749.7279670448333 -1712 ) ( 907.8520746973024 3112 -2016 ) ( 428.8624992479746 2761.010465260213 -2016 ) Buildings/TexturesCom_BuildingsDerelict0035_S -20 -124.666504 0 0.3 0.3
+( 907.8512634911684 3112 -1712 ) ( 907.8520746973024 3112 -2016 ) ( 417.58000104099847 2749.7279670448333 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S -20 -124.666504 0 0.3 0.3
+( 831.5529508934036 3204.2981918080313 -1892.4340247365858 ) ( 831.5872418808626 3204.2601234805134 -2016 ) ( 831.5864306139499 3204.2601235561233 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S -915.3965 -336 0 0.3 0.3
+( 831.5872418808626 3204.2601234805134 -2016 ) ( 907.8520746973024 3112 -2016 ) ( 907.8512634911684 3112 -1712 ) Buildings/TexturesCom_BuildingsDerelict0035_S -971.3965 -105.666504 0 0.3 0.3
+}
+// brush 24
+{
+( -732.262181352573 1720 -2016 ) ( -326.9535954966377 2320 -2016 ) ( -326.9535954966595 2320 -1744 ) Buildings/TexturesCom_BuildingsVenice0087_S -690.55566 -410 0 0.4 0.4
+( -566.9569100915829 1624.5609571390733 -2016 ) ( -732.262181352573 1720 -2016 ) ( -732.2621813525953 1720 -1744 ) Buildings/TexturesCom_BuildingsVenice0087_S 123.874146 -172 0 0.4 0.4
+( -566.9569100915829 1624.5609571390733 -2016 ) ( -169.96573603245636 2208.744214923103 -2016 ) ( -326.9535954966377 2320 -2016 ) Buildings/TexturesCom_BuildingsVenice0087_S 669.4885 203.52612 330 0.4 0.4
+( -326.9535954966595 2320 -1744 ) ( -169.9657360324636 2208.7442149230956 -1744 ) ( -566.9569100915887 1624.5609571390642 -1744 ) Level/alphalt_2x2 -98.511475 -90.47388 330 0.4 0.4
+( -326.9535954966377 2320 -2016 ) ( -169.96573603245636 2208.744214923103 -2016 ) ( -169.9657360324636 2208.7442149230956 -1744 ) Buildings/TexturesCom_BuildingsVenice0087_S 378.41895 -176 0 0.4 0.4
+( -169.9657360324636 2208.7442149230956 -1744 ) ( -169.96573603245636 2208.744214923103 -2016 ) ( -566.9569100915829 1624.5609571390733 -2016 ) Buildings/TexturesCom_BuildingsVenice0087_S 105.59766 -170 0 0.4 0.4
+}
+// brush 25
+{
+( -150.79070370101056 2254.7735273906055 -2016 ) ( -256.2147121922135 2372.8777632432066 -2016 ) ( -256.21471219222013 2372.8777632431807 -1696 ) Buildings/TexturesCom_BuildingsVenice0005_S 274.41895 -192 180 0.5 -0.5
+( -256.2147121922135 2372.8777632432066 -2016 ) ( 256 2811.873046127005 -2016 ) ( 256 2811.8730461269843 -1696 ) Buildings/TexturesCom_BuildingsVenice0005_S 741.51855 -192 0 0.5 0.5
+( -150.79070370101056 2254.7735273906055 -2016 ) ( 347.998171390208 2701.599389805806 -2016 ) ( 256 2811.873046127005 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S -90.08789 -54.895508 300 0.5 -0.5
+( 256 2811.8730461269843 -1696 ) ( 347.9981713902044 2701.59938980579 -1696 ) ( -150.79070370102272 2254.773527390582 -1696 ) Level/alphalt_2x2 165.91211 -118.89551 300 0.5 -0.5
+( 347.9981713902044 2701.59938980579 -1696 ) ( 347.998171390208 2701.599389805806 -2016 ) ( -150.79070370101056 2254.7735273906055 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S -924.35455 -192 180 0.5 -0.5
+( 256 2811.873046127005 -2016 ) ( 347.998171390208 2701.599389805806 -2016 ) ( 347.9981713902044 2701.59938980579 -1696 ) Buildings/TexturesCom_BuildingsVenice0005_S -92.643555 -192 180 0.5 -0.5
+}
+// brush 26
+{
+( 911.9607846780998 -1973.0910106130132 -1504 ) ( 911.2539378318947 -1972.3834536112317 -1504 ) ( 911.9607846780998 -1973.0910106130132 -1503 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -75.40332 -322 0 0.4 0.4
+( 324.46720729062895 -1124.3902788618611 -1456 ) ( 325.17431407182653 -1123.6831720806777 -1456 ) ( 324.46720729062895 -1124.3902788618611 -1455 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -86.865906 -238 0 0.4 0.4
+( 997.3523804664958 -1887.785120029631 -2016 ) ( 998.0594872476822 -1887.0780132484442 -2016 ) ( 996.6455336202907 -1887.0775630278497 -2016 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 949.6312 -118.1001 45 0.4 0.4
+( 35.687158052794075 -835.6102296240456 -1744 ) ( 34.980051271607635 -834.9031228428591 -1744 ) ( 36.39426483398074 -834.9031228428591 -1744 ) Level/alphalt_2x2 181.63123 -118.1001 45 0.4 0.4
+( 40.07743691470921 -831.2199507621303 -1456 ) ( 40.07743691470921 -831.2199507621303 -1455 ) ( 39.37033013352277 -830.5128439809439 -1456 ) Buildings/TexturesCom_Facades,FlorenceItaly_S 520.34985 -230 0 0.4 0.4
+( 997.3523804664958 -1887.785120029631 -1504 ) ( 997.3523804664958 -1887.785120029631 -1503 ) ( 998.0594872476822 -1887.0780132484442 -1504 ) Buildings/TexturesCom_Facades,FlorenceItaly_S -98.26904 -229 0 0.4 0.4
+}
+// brush 27
+{
+( 1591.4536026745172 -2108.8875128385134 -1492 ) ( 1590.7464959082313 -2108.1804060424256 -1492 ) ( 1591.4536026745172 -2108.8875128385134 -1491 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 118.41748 -227.99951 0 0.3 0.3
+( 656.5396862729092 -1029.9613194556846 -1444 ) ( 657.2467930689969 -1029.254212689399 -1444 ) ( 656.5396862729092 -1029.9613194556846 -1443 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S -544.4873 -227.99951 0 0.3 0.3
+( 1618.2048865136865 -2082.1362301268464 -2004 ) ( 1618.9119933097738 -2081.429123360561 -2004 ) ( 1617.497779747401 -2081.4291233307586 -2004 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 648.0488 -232.53613 45 0.3 0.3
+( 656.5396862729092 -1029.9613194556846 -1864 ) ( 655.8325795066237 -1029.2542126595968 -1864 ) ( 657.2467930689969 -1029.254212689399 -1864 ) Level/alphalt_2x2 136.04883 -232.53613 45 0.3 0.3
+( 656.5396862729092 -1029.9613194556846 -1444 ) ( 656.5396862729092 -1029.9613194556846 -1443 ) ( 655.8325795066237 -1029.2542126595968 -1444 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 16.58545 -199.99951 0 0.3 0.3
+( 1205.317363605233 -1669.2486906425052 -1492 ) ( 1205.317363605233 -1669.2486906425052 -1491 ) ( 1206.0244700990268 -1668.5415827480444 -1492 ) Buildings/TexturesCom_BuildingsNeoclassical0023_1_S 686.6704 -199.99951 0 0.3 0.3
+}
+// brush 28
+{
+( 392 3688 -1976 ) ( 360 3728 -1976 ) ( 360 3728 -1460 ) panic_wall 128 -440 0 1 1
+( 1368 4224 -1976 ) ( 1368 4224 -1468 ) ( 360 3728 -1460 ) panic_wall -8 -440 0 1 1
+( 392 3688 -1976 ) ( 1384 4168 -1976 ) ( 1368 4224 -1976 ) panic_wall -8 -384 0 1 1
+( 360 3728 -1460 ) ( 1368 4224 -1468 ) ( 392 3688 -1460 ) walltop -8 -128 0 1 1
+( 1368 4224 -1468 ) ( 1384 4168 -1468 ) ( 392 3688 -1460 ) walltop -8 -128.00024 0 1 1
+( 392 3688 -1460 ) ( 1384 4168 -1468 ) ( 1384 4168 -1976 ) panic_wall -8 -440 0 1 1
+( 1384 4168 -1976 ) ( 1384 4168 -1468 ) ( 1368 4224 -1468 ) panic_wall 219.83936 -440 0 1 1
+}
+// brush 29
+{
+( -1021.9226134825522 -123.17666340735693 -1696 ) ( -658.0994555238874 -731.0599804347887 -1696 ) ( -1021.9226134869241 -123.17666339810239 -2016 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 283.84802 -895.9995 0 0.25 0.25
+( -1021.9226134869241 -123.17666339810239 -2016 ) ( -658.0994555238874 -731.0599804347887 -1696 ) ( -666.4972776172173 -716.5145258960565 -2016 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 283.84802 -896 0 0.25 0.25
+( -780 -27.215390299820683 -2016 ) ( -780 -27.215390310826663 -1696 ) ( -1021.9226134825522 -123.17666340735693 -1696 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -95 -1004 0 0.25 0.25
+( -666.4972776172173 -716.5145258960565 -2016 ) ( -455.9337929740532 -588.5145258946127 -2016 ) ( -780 -27.215390299820683 -2016 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -158 -586.6666 0 0.25 0.25
+( -780 -27.215390310826663 -1696 ) ( -447.5359708855733 -603.0599804361185 -1696 ) ( -658.0994555238874 -731.0599804347887 -1696 ) Level/alphalt_2x2 -158 -74.666626 0 0.25 0.25
+( -455.9337929740532 -588.5145258946127 -2016 ) ( -666.4972776172173 -716.5145258960565 -2016 ) ( -658.0994555238874 -731.0599804347887 -1696 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -312.3286 -908.3164 0 0.25 0.25
+( -455.9337929740532 -588.5145258946127 -2016 ) ( -447.5359708855733 -603.0599804361185 -1696 ) ( -780 -27.215390310826663 -1696 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 85.86157 -1002 0 0.25 0.25
+}
+// brush 30
+{
+( -441.72312247343314 -608 -1696 ) ( -549.9315163823451 -720.9493539659851 -1696 ) ( -549.931516382323 -720.9493539659834 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S 421.98206 -192 0 0.5 0.5
+( -549.9315163823451 -720.9493539659851 -1696 ) ( 191.8085282578395 -1236.618794250022 -1696 ) ( 191.8085282578097 -1236.6187942499791 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S -457.10504 192 180 0.5 0.5
+( 191.8085282578097 -1236.6187942499791 -2016 ) ( 277.9127641104343 -1099.194785758752 -2016 ) ( -441.7231224734169 -608 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S 462.87146 211.16284 30 0.5 0.5
+( -441.72312247343314 -608 -1696 ) ( 277.91276411046783 -1099.1947857587875 -1696 ) ( 191.8085282578395 -1236.618794250022 -1696 ) Level/alphalt_2x2 206.87146 211.16284 30 0.5 0.5
+( 277.9127641104343 -1099.194785758752 -2016 ) ( 277.91276411046783 -1099.1947857587875 -1696 ) ( -441.72312247343314 -608 -1696 ) Buildings/TexturesCom_BuildingsVenice0005_S -283.91278 -192 0 0.5 0.5
+( 191.8085282578395 -1236.618794250022 -1696 ) ( 277.91276411046783 -1099.1947857587875 -1696 ) ( 277.9127641104343 -1099.194785758752 -2016 ) Buildings/TexturesCom_BuildingsVenice0005_S 565.7964 -192 0 0.5 0.5
+}
+// brush 31
+{
+( -149.5486002770311 -571.7778600213632 -1856 ) ( -275.13843876330355 -704 -1856 ) ( -275.1384387633025 -704 -2016 ) Buildings/TexturesCom_BuildingsVenice0012_S 981.12646 -5 0 0.5 0.5
+( -275.13843876330355 -704 -1856 ) ( 569.2050367700649 -1187.194745808869 -1856 ) ( 569.2050367700613 -1187.1947458088691 -2016 ) Buildings/TexturesCom_BuildingsVenice0012_S -383.11664 -325 180 0.5 -0.5
+( 569.2050367700613 -1187.1947458088691 -2016 ) ( 656 -1036.8615636454829 -2016 ) ( -149.5486002770267 -571.7778600213678 -2016 ) Buildings/TexturesCom_BuildingsVenice0012_S 165.02551 277.66724 30 0.5 -0.5
+( -149.5486002770311 -571.7778600213632 -1856 ) ( 656 -1036.8615636454815 -1856 ) ( 569.2050367700649 -1187.194745808869 -1856 ) Level/alphalt_2x2 165.02551 21.667236 30 0.5 -0.5
+( 656 -1036.8615636454829 -2016 ) ( 656 -1036.8615636454815 -1856 ) ( -149.5486002770311 -571.7778600213632 -1856 ) Buildings/TexturesCom_BuildingsVenice0012_S -379.0972 -5 180 0.5 -0.5
+( 656 -1036.8615636454829 -2016 ) ( 569.2050367700613 -1187.1947458088691 -2016 ) ( 569.2050367700649 -1187.194745808869 -1856 ) Buildings/TexturesCom_BuildingsVenice0012_S 157.39722 325 0 0.5 -0.5
+}
+// brush 32
+{
+( -821.30584119388 235.7128129210323 -1800.4388873058379 ) ( -304 -624 -2016 ) ( -826.9628533048265 245.5110453162265 -2016 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S -325.61243 -131.99976 0 0.6 0.6
+( -821.30584119388 235.7128129210323 -1800.4388873058379 ) ( -304 -624 -1800.4388873058858 ) ( -304 -624 -2016 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S -325.61243 -132 0 0.6 0.6
+( -611.4220173326129 184.5721734904315 -1806.8424213841913 ) ( -776.7278585264929 120.57217349043026 -1806.842421384184 ) ( -782.3848706374393 130.37040588562445 -2022.4035340783462 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S -33.16577 -132 0 0.6 0.6
+( -304 -624 -2016 ) ( -170.69415879925145 -560 -2016 ) ( -661.6570121109044 309.51104531621877 -2016 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S 213.33337 -63.99994 0 0.6 0.6
+( -656 299.71281292103356 -1800.4388873058454 ) ( -170.694158806078 -560 -1800.4388873058913 ) ( -304 -624 -1800.4388873058858 ) Level/alphalt_2x2 213.33337 -64.00012 0 0.6 0.6
+( -304 -624 -2016 ) ( -304 -624 -1800.4388873058858 ) ( -170.694158806078 -560 -1800.4388873058913 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S 82.00482 -132 0 0.6 0.6
+( -661.6570121109044 309.51104531621877 -2016 ) ( -170.69415879925145 -560 -2016 ) ( -656 299.71281292103356 -1800.4388873058454 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S -363.51105 -131.99976 0 0.6 0.6
+( -656 299.71281292103356 -1800.4388873058454 ) ( -170.69415879925145 -560 -2016 ) ( -170.694158806078 -560 -1800.4388873058913 ) Buildings/TexturesCom_ParisBackground-TallbuildingsalongtheSeine_S -363.51105 -131.99976 0 0.6 0.6
+}
+// brush 33
+{
+( 979.4854741136951 3111.9337929786766 -2016 ) ( 939.4854741137065 3234.276780867771 -2016 ) ( 925.667292293281 3226.2988498740374 -1712 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 440.17676 -545 0 0.25 0.25
+( 939.4854741137065 3234.276780867771 -2016 ) ( 1779.2135486841157 3728 -2016 ) ( 925.667292293281 3226.2988498740374 -1712 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -223.91504 -895.9995 0 0.25 0.25
+( 1779.2135486841157 3728 -2016 ) ( 1779.213548703151 3728 -1712 ) ( 925.667292293281 3226.2988498740374 -1712 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -223.91504 -896 0 0.25 0.25
+( 979.4854741136951 3111.9337929786766 -2016 ) ( 1846.0460228890443 3612.2427590831794 -2016 ) ( 1779.2135486841157 3728 -2016 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -471.33398 778.667 270 0.25 0.25
+( 1779.213548703151 3728 -1712 ) ( 1846.0460228890443 3612.2427590831685 -1712 ) ( 965.6672922932721 3103.955861984934 -1712 ) Level/alphalt_2x2 -211.33398 10.666504 270 0.25 0.25
+( 979.4854741136951 3111.9337929786766 -2016 ) ( 965.6672922932721 3103.955861984934 -1712 ) ( 1846.0460228890443 3612.2427590831685 -1712 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S -34.668945 -541 0 0.25 0.25
+( 1779.2135486841157 3728 -2016 ) ( 1846.0460228890443 3612.2427590831794 -2016 ) ( 1846.0460228890443 3612.2427590831685 -1712 ) Buildings/TexturesCom_Buildings18thCentury0030_1_S 257.0293 -541 0 0.25 0.25
+}
+// brush 34
+{
+( -168 3280 -1976 ) ( -208 3328 -1976 ) ( -208 3328 -1464 ) panic_wall -56 -440 0 1 1
+( 360 3728 -1976 ) ( 360 3728 -1460.0237037037218 ) ( -208 3328 -1464 ) panic_wall 48 -440.00012 0 1 1
+( 360 3728 -1460.0237037037218 ) ( 392 3688 -1460 ) ( -208 3328 -1464 ) walltop 16 -136 0 1 1
+( -208 3328 -1464 ) ( 392 3688 -1460 ) ( -168 3280 -1464.0288288597833 ) walltop 16 -136 0 1 1
+( -168 3280 -1976 ) ( 392 3688 -1976 ) ( 360 3728 -1976 ) panic_wall 16 -392 0 1 1
+( -168 3280 -1464.0288288597833 ) ( 392 3688 -1460 ) ( 392 3688 -1976 ) panic_wall 16 -440 0 1 1
+( 392 3688 -1976 ) ( 392 3688 -1460 ) ( 360 3728 -1460.0237037037218 ) panic_wall -24 -440.00012 0 1 1
+}
+// brush 35
+{
+( -821.0016419320516 2488.4033525345794 -1968 ) ( -261.9786841591108 3205.076154762674 -1968 ) ( -261.9786841591223 3205.0761547626694 -1776 ) Buildings/TexturesCom_HighRiseTowerblocks0006_1_seamless_S -29.333984 -416 0 0.27609456 0.3
+( -658.515046390997 2316.6656826659287 -1968 ) ( -840.6421309610063 2464.1493843663657 -1968 ) ( -840.6421309610128 2464.1493843663707 -1776 ) Buildings/TexturesCom_HighRiseTowerblocks0006_1_seamless_S 168.2793 -697 0 0.26921114 0.3
+( -638.8745573620425 2340.919650834143 -1968 ) ( -53.50124089114158 3063.7954948561332 -1968 ) ( -261.9786841591108 3205.076154762674 -1968 ) Buildings/TexturesCom_HighRiseTowerblocks0006_1_seamless_S 186.59473 117.39465 291 0.3 0.3
+( -261.9786841591223 3205.0761547626694 -1668 ) ( -53.50124089118049 3063.7954948561423 -1668 ) ( -638.8745573620708 2340.9196508341633 -1668 ) Level/alphalt_2x2 -69.40527 143.39465 291 0.3 0.3
+( -353.00623533304133 2688.7374795581413 -1952 ) ( -353.00623533304497 2688.737479558151 -1904 ) ( -430.3370402192686 2756.2505644692073 -1872 ) Buildings/TexturesCom_HighRiseTowerblocks0006_1_seamless_S 345.42957 -448 180 0.2556622 -0.3
+( -53.50124089118049 3063.7954948561423 -1776 ) ( -53.50124089114158 3063.7954948561332 -1968 ) ( -638.8745573620425 2340.919650834143 -1968 ) Buildings/TexturesCom_HighRiseTowerblocks0006_1_seamless_S 675.1035 -444 0 0.26921126 0.3
+}
+// brush 36
+{
+( -1621.5438596491203 780 -1428 ) ( -1552 -624 -1440 ) ( -1552 -624 -1952 ) panic_wall 0 -416 0 1 1
+( -1573.3928571428687 784 -1952 ) ( -1573.3928571428837 784 -1428 ) ( -1621.5438596491203 780 -1428 ) panic_wall 103.05884 -416 0 1 1
+( -1552 -624 -1952 ) ( -1504 -608 -1952 ) ( -1573.3928571428687 784 -1952 ) panic_wall 0 0 0 1 1
+( -1573.3928571428837 784 -1428 ) ( -1552 -624 -1440 ) ( -1621.5438596491203 780 -1428 ) walltop 0 0 0 1 1
+( -1573.3928571428837 784 -1428 ) ( -1504 -608 -1440 ) ( -1552 -624 -1440 ) walltop 0 0 0 1 1
+( -1552 -624 -1440 ) ( -1504 -608 -1440 ) ( -1504 -608 -1952 ) panic_wall 0 -416 0 1 1
+( -1504 -608 -1952 ) ( -1504 -608 -1440 ) ( -1573.3928571428837 784 -1428 ) panic_wall 0 -416 0 1 1
+}
+// brush 37
+{
+( -1384 1968 -1976 ) ( -1384 1968 -1432 ) ( -1608.0875293067065 1103.662386959908 -1428 ) panic_wall -64 -440 0 1 1
+( -1562.1132075479563 1096 -1976 ) ( -1608.0875293067065 1103.662386959908 -1976 ) ( -1608.0875293067065 1103.662386959908 -1428 ) panic_wall 125.86206 -440 0 1 1
+( -1562.1132075479563 1096 -1976 ) ( -1336 1952 -1976 ) ( -1384 1968 -1976 ) panic_wall 64 64 0 1 1
+( -1608.0875293067065 1103.662386959908 -1428 ) ( -1384 1968 -1432 ) ( -1562.1132075479563 1096 -1428 ) walltop 64 64 0 1 1
+( -1384 1968 -1432 ) ( -1336 1952 -1432 ) ( -1562.1132075479563 1096 -1428 ) walltop 64 64 0 1 1
+( -1336 1952 -1976 ) ( -1336 1952 -1432 ) ( -1384 1968 -1432 ) panic_wall 64 -440 0 1 1
+( -1562.1132075479563 1096 -1428 ) ( -1336 1952 -1432 ) ( -1336 1952 -1976 ) panic_wall -64 -440 0 1 1
+}
+// brush 38
+{
+( -1552 -624 -1440 ) ( -1048 -1352 -1440 ) ( -1048 -1352 -1952 ) panic_wall 0 -416 0 1 1
+( -1504 -608 -1440 ) ( -1552 -624 -1440 ) ( -1552 -624 -1952 ) panic_wall 0 -416 0 1 1
+( -1048 -1352 -1952 ) ( -1016 -1312 -1952 ) ( -1504 -608 -1952 ) panic_wall 0 0 0 1 1
+( -1504 -608 -1440 ) ( -1016 -1312 -1440 ) ( -1048 -1352 -1440 ) walltop 0 0 0 1 1
+( -1048 -1352 -1440 ) ( -1016 -1312 -1440 ) ( -1016 -1312 -1952 ) panic_wall 72 -416 0 1 1
+( -1504 -608 -1440 ) ( -1504 -608 -1952 ) ( -1016 -1312 -1952 ) panic_wall 0 -416 0 1 1
+}
+// brush 39
+{
+( -1016 -1312 -1440 ) ( -1048 -1352 -1440 ) ( -1048 -1352 -1952 ) panic_wall -72 -416 0 -1 1
+( -1048 -1352 -1440 ) ( -352 -1824 -1440 ) ( -352 -1824 -1952 ) panic_wall 0 -416 0 -1 1
+( -352 -1824 -1952 ) ( -320 -1792 -1952 ) ( -1016 -1312 -1952 ) panic_wall 0 0 0 -1 1
+( -1016 -1312 -1440 ) ( -320 -1792 -1440 ) ( -352 -1824 -1440 ) walltop 0 0 180 1 -1
+( -320 -1792 -1952 ) ( -320 -1792 -1440 ) ( -1016 -1312 -1440 ) panic_wall -193 -416 0 -1 1
+( -352 -1824 -1440 ) ( -320 -1792 -1440 ) ( -320 -1792 -1952 ) panic_wall -224 -416 0 -1 1
+}
+// brush 40
+{
+( -1104 2504 -1976 ) ( -1104 2504 -1440 ) ( -1384 1968 -1432 ) panic_wall -64 -440 0 1 1
+( -1336 1952 -1976 ) ( -1384 1968 -1976 ) ( -1384 1968 -1432 ) panic_wall 64 -440 0 1 1
+( -1336 1952 -1976 ) ( -1056 2472 -1976 ) ( -1104 2504 -1976 ) panic_wall 64 64 0 1 1
+( -1384 1968 -1432 ) ( -1104 2504 -1440 ) ( -1336 1952 -1432 ) walltop 64 64 0 1 1
+( -1104 2504 -1440 ) ( -1056 2472 -1440 ) ( -1336 1952 -1432 ) walltop 64 64 0 1 1
+( -1056 2472 -1976 ) ( -1056 2472 -1440 ) ( -1104 2504 -1440 ) panic_wall 178.32129 -440 0 1 1
+( -1336 1952 -1432 ) ( -1056 2472 -1440 ) ( -1056 2472 -1976 ) panic_wall -64 -440 0 1 1
+}
+// brush 41
+{
+( -827.0702685194424 -1267.8685243556642 -1520 ) ( -827.0702685194274 -1267.8685243556258 -1984 ) ( -702.4215258356111 -1122.3019074088218 -1984 ) Buildings/TexturesCom_BuildingsVenice0087_S 501.42236 -83 0 0.4 0.4
+( -827.0702685194274 -1267.8685243556258 -1984 ) ( -827.0702685194424 -1267.8685243556642 -1520 ) ( -263.887312442696 -1721.8053682342575 -1520 ) Buildings/TexturesCom_BuildingsVenice0087_S -432.31213 -378 0 0.4 0.4
+( -263.8873124426899 -1721.8053682342102 -1984 ) ( -136.1649432029855 -1579.9553065328787 -1984 ) ( -702.4215258356111 -1122.3019074088218 -1984 ) Buildings/TexturesCom_BuildingsVenice0087_S 631.4568 -23.912842 48 0.4 0.4
+( -702.421525835594 -1122.3019074088127 -1568 ) ( -136.16494320295376 -1579.9553065328842 -1568 ) ( -263.887312442696 -1721.8053682342575 -1568 ) Level/alphalt_2x2 -136.54321 -121.91272 48 0.4 0.4
+( -68.88553463488086 -1496.7101956034353 -1984 ) ( -68.88553463484914 -1496.710195603441 -1520 ) ( -635.1421172674895 -1039.0567964793695 -1520 ) Buildings/TexturesCom_BuildingsVenice0087_S -773.0523 -90 0 0.4 0.4
+( -136.1649432029855 -1579.9553065328787 -1984 ) ( -263.8873124426899 -1721.8053682342102 -1984 ) ( -263.887312442696 -1721.8053682342575 -1520 ) Buildings/TexturesCom_BuildingsVenice0087_S 479.24854 -93 0 0.4 0.4
+}
+// brush 42
+{
+( 897.8782485750239 3411.517805574966 -1904 ) ( 825.7454566646531 3531.278560860667 -1904 ) ( 813.887940552411 3520.6020050779375 -1600 ) Buildings/TexturesCom_BuildingsDerelict0035_S 701.9131 -764.79297 0.77455467 0.30225593 0.30225593
+( 744.7255217013553 3663.3202866626225 -1902.5228432008805 ) ( 1242.1964908091466 3965.164341291901 -1598.5228432008805 ) ( 732.8680055891132 3652.643730879893 -1598.5228432008805 ) Buildings/TexturesCom_BuildingsDerelict0035_S -439.18042 -755.7427 0 0.3 0.3
+( 897.8782485750239 3411.517805574966 -1904 ) ( 1394.5807533193474 3736.957947071857 -1904 ) ( 1323.2489593801674 3833.08302737376 -1904 ) Buildings/TexturesCom_BuildingsDerelict0035_S -315.7881 -523.3428 282 0.3 0.3
+( 1323.248149229024 3833.0830699076837 -1616 ) ( 1394.5799432249435 3736.9579895271054 -1616 ) ( 886.0207324659038 3400.8412497870527 -1616 ) Level/alphalt_2x2 -51.786133 -177.34277 282 0.3 0.3
+( 886.0207324659038 3400.8412497870527 -1600 ) ( 1394.5807533193474 3736.957947071857 -1904 ) ( 897.8782485750239 3411.517805574966 -1904 ) Buildings/TexturesCom_BuildingsDerelict0035_S -398.65942 -657.3335 0 0.3 0.3
+( 1522.796437978129 3993.22565113381 -1780.4335152630797 ) ( 1522.8286896292516 3993.1858403264737 -1904 ) ( 1522.8278794781081 3993.185882860397 -1600 ) Buildings/TexturesCom_BuildingsDerelict0035_S 63.92383 -655.66455 0 0.3 0.3
+}
+}

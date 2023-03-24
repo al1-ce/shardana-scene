@@ -1,0 +1,249 @@
+[gd_scene load_steps=31 format=3 uid="uid://dhdca1ofpo1cm"]
+
+[ext_resource type="Sky" uid="uid://duqkskhiei6y4" path="res://assets/resources/skybox.tres" id="1_3okv6"]
+[ext_resource type="Shader" path="res://assets/shaders/water_fancy.gdshader" id="1_i4qaq"]
+[ext_resource type="PackedScene" uid="uid://rq7ivoo08yhi" path="res://scenes/freccia_01.tscn" id="2_uosde"]
+[ext_resource type="Texture2D" uid="uid://ilmpc5cfibp2" path="res://assets/textures/Frecca/01. Freccia_Filled.png" id="3_y1wrj"]
+[ext_resource type="Texture2D" uid="uid://c58iqp8r00sxf" path="res://assets/textures/Frecca/04. Marlin_Filled.png" id="4_lh235"]
+[ext_resource type="Texture2D" uid="uid://tyoabyys1pk5" path="res://assets/textures/Frecca/02. Pike_Filled.png" id="5_knme2"]
+[ext_resource type="Texture2D" uid="uid://g08cwvhvovcv" path="res://VFX/kenney_pack/dirt_03.png" id="6_fp7ej"]
+[ext_resource type="PackedScene" uid="uid://8hsqss7f8bcj" path="res://scenes/camera_drone_split.tscn" id="7_m44jd"]
+
+[sub_resource type="Environment" id="Environment_2gjfn"]
+background_mode = 2
+sky = ExtResource("1_3okv6")
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_vkcs3"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_likmx"]
+size = Vector2(1000, 1000)
+subdivide_width = 500
+subdivide_depth = 500
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_5gpwh"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_52vdg"]
+seamless = true
+noise = SubResource("FastNoiseLite_5gpwh")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_3wlf4"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_edjb0"]
+seamless = true
+noise = SubResource("FastNoiseLite_3wlf4")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_j62hi"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_k382o"]
+seamless = true
+as_normal_map = true
+bump_strength = 19.4
+noise = SubResource("FastNoiseLite_j62hi")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4ry1r"]
+render_priority = 0
+shader = ExtResource("1_i4qaq")
+shader_parameter/speed = 0.00700005
+shader_parameter/color = Color(0.0627451, 0.654902, 1, 0.654902)
+shader_parameter/edge_color = Color(0.92549, 0.917647, 0.964706, 0.862745)
+shader_parameter/edge_scale = 3.0
+shader_parameter/near = 0.1
+shader_parameter/far = 100.0
+shader_parameter/wave_strengh = Vector2(0.219, 0.67)
+shader_parameter/wave_frequency = Vector2(10.128, 12)
+shader_parameter/time_factor = Vector2(0, 0)
+shader_parameter/noise1 = SubResource("NoiseTexture2D_52vdg")
+shader_parameter/noise2 = SubResource("NoiseTexture2D_edjb0")
+shader_parameter/normalmap = SubResource("NoiseTexture2D_k382o")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_xbyj1"]
+size = Vector2(1000, 1000)
+
+[sub_resource type="Gradient" id="Gradient_gvcn3"]
+colors = PackedColorArray(0.765625, 0.765625, 0.765625, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_luva5"]
+noise_type = 0
+frequency = 0.149
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_0qt1i"]
+seamless = true
+color_ramp = SubResource("Gradient_gvcn3")
+noise = SubResource("FastNoiseLite_luva5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lw4v1"]
+albedo_color = Color(0.823529, 0.584314, 0.478431, 1)
+albedo_texture = SubResource("NoiseTexture2D_0qt1i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_57ruk"]
+transparency = 2
+alpha_scissor_threshold = 0.256
+alpha_antialiasing_mode = 0
+cull_mode = 2
+depth_draw_mode = 1
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("6_fp7ej")
+billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Gradient" id="Gradient_cxiks"]
+offsets = PackedFloat32Array(0, 0.319672, 0.795082, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_pueav"]
+gradient = SubResource("Gradient_cxiks")
+
+[sub_resource type="Curve" id="Curve_n2xqj"]
+_data = [Vector2(0, 0.736364), 0.0, 0.0, 0, 0, Vector2(0.268966, 1), 0.0, 0.0, 0, 0, Vector2(0.806897, 0.936364), 0.0, 0.0, 0, 0, Vector2(1, 0.609091), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_33dd2"]
+curve = SubResource("Curve_n2xqj")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_swv3o"]
+emission_shape = 1
+emission_sphere_radius = 2.0
+direction = Vector3(0, 0, -1)
+spread = 15.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 15.0
+initial_velocity_max = 30.0
+linear_accel_max = 21.43
+tangential_accel_min = -4.76
+tangential_accel_max = 14.29
+angle_min = -720.0
+angle_max = 720.0
+scale_curve = SubResource("CurveTexture_33dd2")
+color_ramp = SubResource("GradientTexture1D_pueav")
+turbulence_noise_scale = 1.62
+
+[sub_resource type="QuadMesh" id="QuadMesh_u5olm"]
+size = Vector2(2, 2)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_2gjfn")
+camera_attributes = SubResource("CameraAttributesPractical_vkcs3")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+visible = false
+mesh = SubResource("PlaneMesh_likmx")
+material = SubResource("ShaderMaterial_4ry1r")
+metadata/_edit_lock_ = true
+
+[node name="CSGMesh3D3" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.3419, 0)
+mesh = SubResource("PlaneMesh_likmx")
+material = SubResource("ShaderMaterial_4ry1r")
+
+[node name="CSGMesh3D2" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -99.3, 0)
+mesh = SubResource("PlaneMesh_xbyj1")
+material = SubResource("StandardMaterial3D_lw4v1")
+metadata/_edit_lock_ = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866684, -0.021799, -0.498382, -0.138483, -0.949266, 0.282341, -0.479252, 0.313718, 0.819694, 0, 0, 0)
+light_color = Color(1, 0.894118, 0.666667, 1)
+light_energy = 2.0
+shadow_enabled = true
+shadow_opacity = 0.47
+shadow_blur = 10.0
+
+[node name="Freccia_02" parent="." instance=ExtResource("2_uosde")]
+transform = Transform3D(0.987675, 0.149868, -0.0451432, -0.156519, 0.945454, -0.285688, -0.000134613, 0.289233, 0.957259, -6.57437, 0.00895321, -7.33694)
+texture = ExtResource("3_y1wrj")
+
+[node name="Freccia_01" parent="." instance=ExtResource("2_uosde")]
+transform = Transform3D(1, 0, 0, 0, 0.989098, -0.147257, 0, 0.147257, 0.989098, -0.221902, -0.147228, 6.61831)
+texture = ExtResource("4_lh235")
+
+[node name="Freccia_03" parent="." instance=ExtResource("2_uosde")]
+transform = Transform3D(0.953714, -0.247125, 0.171341, 0.280764, 0.935836, -0.21303, -0.107702, 0.251277, 0.961904, 7.972, -0.391, -6.151)
+texture = ExtResource("5_knme2")
+
+[node name="CPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(-0.836592, 0, -0.547826, 0, 1, 0, 0.547826, 0, -0.836592, 11.7786, -1.55113, -2.04324)
+visible = false
+material_override = SubResource("StandardMaterial3D_57ruk")
+amount = 128
+lifetime = 0.49
+process_material = SubResource("ParticleProcessMaterial_swv3o")
+draw_pass_1 = SubResource("QuadMesh_u5olm")
+
+[node name="CPUParticles3D2" type="GPUParticles3D" parent="."]
+transform = Transform3D(-0.992239, 0.0164219, 0.123257, -1.86265e-09, 0.991241, -0.132066, -0.124346, -0.131041, -0.983548, 2.17364, -2.12333, 16.3894)
+visible = false
+material_override = SubResource("StandardMaterial3D_57ruk")
+amount = 128
+lifetime = 0.49
+process_material = SubResource("ParticleProcessMaterial_swv3o")
+draw_pass_1 = SubResource("QuadMesh_u5olm")
+
+[node name="CPUParticles3D3" type="GPUParticles3D" parent="."]
+transform = Transform3D(-0.94452, 0, 0.328455, 0, 1, 0, -0.328455, 0, -0.94452, -14.5151, -1.55113, -1.68218)
+visible = false
+material_override = SubResource("StandardMaterial3D_57ruk")
+amount = 128
+lifetime = 0.49
+process_material = SubResource("ParticleProcessMaterial_swv3o")
+draw_pass_1 = SubResource("QuadMesh_u5olm")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.112274, 0.35051, -0.929805, 0.111404, 0.934262, 0.338738, 0.987412, -0.0655526, -0.143942, -14.443, 3.638, -4.547)
+current = true
+size = 28.07
+
+[node name="camera_drone_split" parent="." instance=ExtResource("7_m44jd")]
+transform = Transform3D(0.978339, -0.201309, -0.0482513, 0.206422, 0.93111, 0.300706, -0.0156076, -0.304152, 0.952495, 5.07, 7.954, 17.766)
+
+[node name="Node3D" parent="camera_drone_split/drone_Mesh" index="0"]
+transform = Transform3D(1, 0, 1.93715e-07, 5.96046e-08, -0.017592, -0.999845, 2.08616e-07, 0.999845, -0.0175921, -1.08026, -0.43495, -1.56049)
+
+[node name="Node3D3" parent="camera_drone_split/drone_Mesh" index="1"]
+transform = Transform3D(1, -5.96046e-08, 8.9407e-08, 5.96046e-08, 0.451719, -0.892161, 2.08616e-07, 0.892161, 0.451719, -1.08026, 0.631674, 1.54176)
+
+[node name="Node3D4" parent="camera_drone_split/drone_Mesh" index="2"]
+transform = Transform3D(1, 0, 5.96046e-08, 5.96046e-08, 0.601885, -0.798583, 2.08616e-07, 0.798583, 0.601885, 1.04358, 0.631675, 1.54175)
+
+[node name="Node3D5" parent="camera_drone_split/drone_Mesh" index="3"]
+transform = Transform3D(1, 0, 1.93715e-07, 4.47035e-08, -0.0285149, -0.999593, 2.08616e-07, 0.999593, -0.0285148, 1.04358, -0.37772, -1.51893)
+
+[node name="Node3D2" parent="camera_drone_split/drone_Mesh" index="4"]
+transform = Transform3D(0.991328, 1.19209e-07, 0.131409, 2.98023e-08, 1, 7.45058e-09, -0.131408, 0, 0.991328, -1.43051e-06, -0.37424, 0.397135)
+
+[node name="Node3D" parent="camera_drone_split/drone_Mesh/Node3D2" index="1"]
+transform = Transform3D(1, 0, -2.98023e-08, 8.9407e-08, 0.983615, 0.180279, 0, -0.180279, 0.983615, -9.53674e-07, 0.0159838, -0.103748)
+
+[node name="Camera3D" type="Camera3D" parent="camera_drone_split/drone_Mesh/Node3D2/Node3D/drone_Mesh006" index="0"]
+transform = Transform3D(1, -1.19209e-07, -1.22935e-06, 7.45058e-09, 1, -1.49012e-07, -2.23517e-08, -2.98023e-08, 1, -9.53674e-07, -1.68572, -1.55363)
+
+[node name="camera_drone_split3" parent="." instance=ExtResource("7_m44jd")]
+transform = Transform3D(0.387683, -0.655716, 0.647871, 0.472301, 0.744874, 0.47127, -0.791603, 0.123287, 0.598471, 40.642, 9.603, -11.165)
+
+[node name="Node3D" parent="camera_drone_split3/drone_Mesh" index="0"]
+transform = Transform3D(1, -5.96046e-08, 1.71363e-07, -3.72529e-08, 0.256998, -0.966412, 1.49012e-07, 0.966412, 0.256998, -1.08026, -0.43495, -1.56049)
+
+[node name="Node3D3" parent="camera_drone_split3/drone_Mesh" index="1"]
+transform = Transform3D(1, 0, 1.04308e-07, -3.72529e-08, 0.466062, -0.884752, 1.49012e-07, 0.884752, 0.466062, -1.08026, 0.631676, 1.54176)
+
+[node name="Node3D4" parent="camera_drone_split3/drone_Mesh" index="2"]
+transform = Transform3D(1, -2.98023e-08, 1.78814e-07, -3.72529e-08, -0.0943343, -0.99554, 1.49012e-07, 0.99554, -0.0943343, 1.04358, 0.631675, 1.54175)
+
+[node name="Node3D5" parent="camera_drone_split3/drone_Mesh" index="3"]
+transform = Transform3D(1, 0, 2.38419e-07, -3.72529e-08, -0.134505, -0.990913, 1.49012e-07, 0.990913, -0.134505, 1.04358, -0.37772, -1.51893)
+
+[node name="Node3D2" parent="camera_drone_split3/drone_Mesh" index="4"]
+transform = Transform3D(0.391101, 1.04308e-07, 0.920348, 1.11759e-07, 1, -1.19209e-07, -0.920348, -1.49012e-08, 0.3911, -3.8147e-06, -0.374241, 0.397135)
+
+[node name="Node3D" parent="camera_drone_split3/drone_Mesh/Node3D2" index="1"]
+transform = Transform3D(1, -2.98023e-08, 1.49012e-08, -3.72529e-08, 0.900964, -0.433895, 5.96046e-08, 0.433895, 0.900963, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="camera_drone_split3/drone_Mesh/Node3D2/Node3D/drone_Mesh006" index="0"]
+transform = Transform3D(0.999999, -5.88596e-07, -2.6226e-06, 0, 0.999999, 2.68221e-07, -1.19209e-07, -1.49012e-08, 1, -4.76837e-06, -1.55575, -1.5194)
+
+[editable path="camera_drone_split"]
+[editable path="camera_drone_split3"]

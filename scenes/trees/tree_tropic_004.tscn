@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqyiqri7lkutc"]
+
+[ext_resource type="PackedScene" uid="uid://ogc3aku15top" path="res://assets/models/trees/Tree_Tropic_004.fbx" id="1_o6t4t"]
+[ext_resource type="Texture2D" uid="uid://dpvwmv75rm03e" path="res://assets/textures/T_Tree_tropical.png" id="2_boeui"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8b1kd"]
+albedo_texture = ExtResource("2_boeui")
+
+[node name="Tree_Tropic_004" instance=ExtResource("1_o6t4t")]
+
+[node name=" Tree_Tropic_004" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_8b1kd")

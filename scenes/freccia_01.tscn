@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://rq7ivoo08yhi"]
+
+[ext_resource type="PackedScene" uid="uid://2dh7uh37g52g" path="res://assets/models/Freccia_01.glb" id="1_7ria2"]
+[ext_resource type="Script" path="res://scripts/Freccia.gd" id="2_tjabb"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_b2j16"]
+load_path = "res://.godot/imported/01. Freccia_Filled.png-b0da15914c708a0d9b5588f34707f824.s3tc.ctex"
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bf6g0"]
+resource_local_to_scene = true
+albedo_texture = SubResource("CompressedTexture2D_b2j16")
+
+[node name="Freccia_01" instance=ExtResource("1_7ria2")]
+script = ExtResource("2_tjabb")
+
+[node name="freccia_Mesh" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_bf6g0")

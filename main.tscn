@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://b7bhg10i6sme0"]
+
+[ext_resource type="PackedScene" uid="uid://butdeokaqc8jr" path="res://scenes/peer.tscn" id="1_bn87k"]
+[ext_resource type="Sky" uid="uid://duqkskhiei6y4" path="res://assets/resources/skybox.tres" id="2_lfuh0"]
+
+[sub_resource type="Environment" id="Environment_kp0tx"]
+background_mode = 2
+sky = ExtResource("2_lfuh0")
+ambient_light_source = 3
+reflected_light_source = 2
+ssr_enabled = true
+ssao_enabled = true
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.972549, 0.831373, 0.92549, 1)
+fog_light_energy = 0.6
+fog_sun_scatter = 0.13
+fog_density = 0.0007
+fog_aerial_perspective = 0.189
+fog_sky_affect = 0.0
+volumetric_fog_albedo = Color(0.67451, 0.658824, 0.686275, 1)
+adjustment_saturation = 1.5
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_c5yjh"]
+dof_blur_far_enabled = true
+dof_blur_far_distance = 367.17
+dof_blur_far_transition = 450.66
+dof_blur_near_distance = 253.26
+dof_blur_amount = 0.06
+
+[node name="SubViewportContainer" type="SubViewportContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="."]
+handle_input_locally = false
+size = Vector2i(1280, 720)
+render_target_update_mode = 4
+
+[node name="Node3D" parent="SubViewport" instance=ExtResource("1_bn87k")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="SubViewport"]
+environment = SubResource("Environment_kp0tx")
+camera_attributes = SubResource("CameraAttributesPractical_c5yjh")
