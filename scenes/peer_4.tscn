@@ -1,0 +1,118 @@
+[gd_scene load_steps=11 format=3 uid="uid://4mse2guvbwbp"]
+
+[ext_resource type="PackedScene" uid="uid://du5huu5exbtf3" path="res://scenes/yacht.tscn" id="1_3pemg"]
+[ext_resource type="PackedScene" uid="uid://rq7ivoo08yhi" path="res://scenes/freccia_01.tscn" id="1_11xam"]
+[ext_resource type="PackedScene" uid="uid://cxvxdud5esl0f" path="res://scenes/yacht_combined.tscn" id="2_s1qxv"]
+[ext_resource type="Texture2D" uid="uid://ym5u08k4inlq" path="res://assets/textures/Frecca/Tribute_Template_3.png" id="3_h86vk"]
+[ext_resource type="Texture2D" uid="uid://c5g17pot7epw1" path="res://assets/textures/Frecca/Tribute_Template_4b.png" id="4_5jrwb"]
+[ext_resource type="Texture2D" uid="uid://biwv6tejefh2n" path="res://assets/textures/Frecca/Tribute_Template_2.png" id="4_jwoc3"]
+[ext_resource type="PackedScene" uid="uid://u8sgrsgolpii" path="res://scenes/peer_main.tscn" id="7_oc0ho"]
+[ext_resource type="PackedScene" uid="uid://0m3vrb55g4fu" path="res://scenes/yacht_new.tscn" id="8_wu0bl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ddkpv"]
+albedo_color = Color(1, 0.0666667, 0, 1)
+emission_enabled = true
+emission = Color(1, 0, 0.0117647, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lu4uu"]
+albedo_color = Color(0.211765, 0.211765, 0.211765, 1)
+
+[node name="peer_1" type="Node3D"]
+
+[node name="Camera_1" type="Camera3D" parent="."]
+transform = Transform3D(0.883316, 0.0237154, 0.468179, -0.0984008, 0.985849, 0.135716, -0.458335, -0.165949, 0.87315, 62.383, 6.506, 314.577)
+visible = false
+current = true
+fov = 80.7
+size = 0.061
+
+[node name="Dude" type="Node3D" parent="Camera_1"]
+transform = Transform3D(0.994432, 0, -0.105378, -0.0121118, 0.993373, -0.114297, 0.10468, 0.114937, 0.987842, -0.0628738, -0.781313, 0.50737)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Camera_1/Dude"]
+material = SubResource("StandardMaterial3D_ddkpv")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143631, 0.689378, -0.403097)
+radius = 0.115814
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.403099)
+radius = 0.115814
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.451702)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156445, 0.689378, -0.451704)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="Dude" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.5725, 6.58725, 243.795)
+visible = false
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Dude"]
+material = SubResource("StandardMaterial3D_ddkpv")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143631, 0.689378, -0.403097)
+radius = 0.115814
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.403099)
+radius = 0.115814
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.451702)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156445, 0.689378, -0.451704)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="Yachts" type="Node3D" parent="."]
+
+[node name="yacht" parent="Yachts" instance=ExtResource("1_3pemg")]
+transform = Transform3D(0.215195, 0, 0.976571, 0, 1, 0, -0.976571, 0, 0.215195, 58.3269, -1.00654, 260.183)
+
+[node name="yacht2" parent="Yachts" instance=ExtResource("1_3pemg")]
+transform = Transform3D(-0.63527, 0, 0.77229, 0, 1, 0, -0.77229, 0, -0.63527, -16.5802, -1.00654, 157.43)
+
+[node name="Freccia_01" parent="Yachts" instance=ExtResource("1_11xam")]
+transform = Transform3D(0.105253, -0.0569557, -0.992813, -0.00230919, 0.998342, -0.0575177, 0.994443, 0.00834651, 0.104947, 44.9265, -0.229422, 290.107)
+texture = ExtResource("3_h86vk")
+
+[node name="Freccia_03" parent="Yachts" instance=ExtResource("1_11xam")]
+transform = Transform3D(-0.1726, -0.101758, -0.979722, -0.113954, 0.990034, -0.0827531, 0.978378, 0.0973597, -0.182476, 67.5001, 0.033607, 288.271)
+texture = ExtResource("4_5jrwb")
+
+[node name="Freccia_02" parent="Yachts" instance=ExtResource("1_11xam")]
+transform = Transform3D(0.202541, -0.060007, -0.977433, 0.086102, 0.995347, -0.0432649, 0.975481, -0.0753961, 0.206765, 36.5028, -0.60295, 302.083)
+texture = ExtResource("4_jwoc3")
+
+[node name="superyacht_models2" parent="Yachts" instance=ExtResource("8_wu0bl")]
+transform = Transform3D(-0.0358936, 0, -0.999355, 0, 1, 0, 0.999355, 0, -0.0358936, 20.0043, 0.346916, 276.17)
+
+[node name="superyacht_models3" parent="Yachts" instance=ExtResource("8_wu0bl")]
+transform = Transform3D(-0.971138, 0, -0.238517, 0, 1, 0, 0.238517, 0, -0.971138, 2.74031, 0.346916, 54.0522)
+
+[node name="superyacht_models4" parent="Yachts" instance=ExtResource("8_wu0bl")]
+transform = Transform3D(-0.492682, 0, 0.870209, 0, 1, 0, -0.870209, 0, -0.492682, 97.3374, 0.346916, 32.8584)
+
+[node name="superyacht_models5" parent="Yachts" instance=ExtResource("8_wu0bl")]
+transform = Transform3D(0.307024, 0, 0.951701, 0, 1, 0, -0.951701, 0, 0.307024, -46.0896, 0.346916, 101.956)
+
+[node name="superyacht_models6" parent="Yachts" instance=ExtResource("8_wu0bl")]
+transform = Transform3D(-0.703556, 0, -0.71064, 0, 1, 0, 0.71064, 0, -0.703556, 93.9998, 0.346916, 156.075)
+
+[node name="superyacht_models" parent="Yachts" instance=ExtResource("2_s1qxv")]
+transform = Transform3D(-0.999767, 0, 0.0215706, 0, 1, 0, -0.0215706, 0, -0.999767, -75.4309, -0.704853, 192.604)
+
+[node name="Peer_Main" parent="." instance=ExtResource("7_oc0ho")]
+metadata/_edit_lock_ = true

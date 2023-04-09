@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://ci6piyvpyx8s5"]
+
+[ext_resource type="Texture2D" uid="uid://ds7mof0ahma6e" path="res://assets/textures/Yacht/Yacht_Tex.png" id="1_k5fnx"]
+[ext_resource type="Texture2D" uid="uid://ytmnlmtu4xya" path="res://assets/textures/Yacht/yacht_AO.png" id="2_guhhk"]
+
+[resource]
+albedo_texture = ExtResource("1_k5fnx")
+ao_enabled = true
+ao_texture = ExtResource("2_guhhk")

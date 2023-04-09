@@ -1,0 +1,166 @@
+[gd_scene load_steps=12 format=3 uid="uid://butdeokaqc8jr"]
+
+[ext_resource type="PackedScene" uid="uid://cxvxdud5esl0f" path="res://scenes/yacht_combined.tscn" id="2_h1d0r"]
+[ext_resource type="PackedScene" uid="uid://u8sgrsgolpii" path="res://scenes/peer_main.tscn" id="7_tudc8"]
+[ext_resource type="PackedScene" uid="uid://0m3vrb55g4fu" path="res://scenes/yacht_new.tscn" id="8_fbkau"]
+[ext_resource type="PackedScene" uid="uid://du5huu5exbtf3" path="res://scenes/yacht.tscn" id="24_77at7"]
+[ext_resource type="Texture2D" uid="uid://ugvg4in1o20p" path="res://assets/textures/Frecca/Civilian_Template2.png" id="29_3g6yj"]
+[ext_resource type="PackedScene" uid="uid://rq7ivoo08yhi" path="res://scenes/freccia_01.tscn" id="29_dej38"]
+[ext_resource type="Texture2D" uid="uid://e0sqy7edyqc3" path="res://assets/textures/Frecca/Civilian_Template3.png" id="30_hdbk4"]
+[ext_resource type="Texture2D" uid="uid://hkwf0sdxof8u" path="res://assets/textures/Frecca/Civilian_Template (1).png" id="31_vai47"]
+[ext_resource type="Texture2D" uid="uid://b7o462aq647ne" path="res://assets/textures/Frecca/Civilian_Template.png" id="32_yrpq5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ddkpv"]
+albedo_color = Color(1, 0.0666667, 0, 1)
+emission_enabled = true
+emission = Color(1, 0, 0.0117647, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lu4uu"]
+albedo_color = Color(0.211765, 0.211765, 0.211765, 1)
+
+[node name="peer_1" type="Node3D"]
+
+[node name="Camera_1" type="Camera3D" parent="."]
+transform = Transform3D(0.17021, -0.11326, 0.978878, 0, 0.993373, 0.114937, -0.985408, -0.0195634, 0.169082, 186.603, 13.693, 129.568)
+visible = false
+current = true
+size = 0.061
+
+[node name="Dude" type="Node3D" parent="Camera_1"]
+transform = Transform3D(0.994432, 0, -0.105378, -0.0121118, 0.993373, -0.114297, 0.10468, 0.114937, 0.987842, -0.0628738, -0.781313, 0.50737)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Camera_1/Dude"]
+material = SubResource("StandardMaterial3D_ddkpv")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143631, 0.689378, -0.403097)
+radius = 0.115814
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.403099)
+radius = 0.115814
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.451702)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156445, 0.689378, -0.451704)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="Camera_2" type="Camera3D" parent="."]
+transform = Transform3D(0.453991, 0.0310957, 0.890464, 0, 0.999391, -0.0348995, -0.891007, 0.015844, 0.453714, 177.798, 4.723, 111.94)
+visible = false
+
+[node name="Dude" type="Node3D" parent="Camera_2"]
+transform = Transform3D(0.994432, 0, -0.105378, -0.0121118, 0.993373, -0.114297, 0.10468, 0.114937, 0.987842, -0.0628738, -0.781313, 0.50737)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Camera_2/Dude"]
+material = SubResource("StandardMaterial3D_ddkpv")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Camera_2/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143631, 0.689378, -0.403097)
+radius = 0.115814
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Camera_2/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.403099)
+radius = 0.115814
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="Camera_2/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.451702)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="Camera_2/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156445, 0.689378, -0.451704)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="Yachts" type="Node3D" parent="."]
+
+[node name="yacht" parent="Yachts" instance=ExtResource("24_77at7")]
+transform = Transform3D(0.272364, 0, 0.962194, 0, 1, 0, -0.962194, 0, 0.272364, 39.6974, 0.507571, 8.52678)
+
+[node name="superyacht_models" parent="Yachts" instance=ExtResource("2_h1d0r")]
+transform = Transform3D(-0.96771, 0, 0.25207, 0, 1, 0, -0.25207, 0, -0.96771, 18.1828, 0.652, 202.891)
+
+[node name="superyacht_models14" parent="Yachts" instance=ExtResource("2_h1d0r")]
+transform = Transform3D(-0.965827, 0, -0.25919, 0, 1, 0, 0.25919, 0, -0.965827, 96.301, 0.652401, 123.147)
+
+[node name="yacht2" parent="Yachts" instance=ExtResource("24_77at7")]
+transform = Transform3D(-0.965827, 0, -0.25919, 0, 1, 0, 0.25919, 0, -0.965827, 72.1217, 0.652401, 125.552)
+visible = false
+
+[node name="Freccia_01" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(0.481019, 0, -0.87671, 0, 1, 0, 0.87671, 0, 0.481019, 161.75, 3.8147e-06, 118.227)
+texture = ExtResource("29_3g6yj")
+
+[node name="Freccia_02" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(-0.295708, -0.102755, -0.949736, -1.37085e-08, 0.994198, -0.107566, 0.955278, -0.031808, -0.293992, 136.709, 0.498877, 167.132)
+texture = ExtResource("30_hdbk4")
+
+[node name="Freccia_05" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(0.464742, -0.0339344, -0.884795, 0.0583741, 0.998266, -0.00762512, 0.883519, -0.0481053, 0.465917, 152.089, -0.160151, 100.277)
+visible = false
+texture = ExtResource("30_hdbk4")
+
+[node name="Freccia_03" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(0.670919, 0, -0.741531, 0, 1, 0, 0.741531, 0, 0.670919, 128.132, 3.8147e-06, 52.0898)
+texture = ExtResource("31_vai47")
+
+[node name="Freccia_07" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(0.403801, 0, 0.914847, 0, 1, 0, -0.914847, 0, 0.403801, -40.6027, 3.8147e-06, 68.1116)
+visible = false
+texture = ExtResource("31_vai47")
+
+[node name="Freccia_04" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(0.774028, 0, -0.633151, 0, 1, 0, 0.633151, 0, 0.774028, 116.199, 3.8147e-06, 39.1213)
+texture = ExtResource("32_yrpq5")
+
+[node name="Freccia_06" parent="Yachts" instance=ExtResource("29_dej38")]
+transform = Transform3D(-0.320021, -0.0502918, -0.946075, 0.259169, 0.955853, -0.138479, 0.911273, -0.289509, -0.292859, 143.31, 0.4383, 154.942)
+texture = ExtResource("32_yrpq5")
+
+[node name="superyacht_models2" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.437571, 0, 0.899184, 0, 1, 0, -0.899184, 0, -0.437571, 136.047, 0.671516, 89.0094)
+
+[node name="superyacht_models15" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.437571, 0, 0.899184, 0, 1, 0, -0.899184, 0, -0.437571, 143.604, 0.671516, 106.317)
+
+[node name="superyacht_models3" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(0.817256, 0, -0.576275, 0, 1, 0, 0.576275, 0, 0.817256, 90.5913, 0.671516, 22.1093)
+
+[node name="superyacht_models12" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(0.757884, 0, -0.652389, 0, 1, 0, 0.652389, 0, 0.757884, 103.234, 0.671516, 31.9707)
+
+[node name="superyacht_models13" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.951718, 0, 0.306975, 0, 1, 0, -0.306975, 0, -0.951718, 37.926, 0.671516, 63.6102)
+
+[node name="superyacht_models4" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.719364, 0, -0.694633, 0, 1, 0, 0.694633, 0, -0.719364, -4.73506, 0.671516, 10.9837)
+
+[node name="superyacht_models5" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.426474, 0, -0.9045, 0, 1, 0, 0.9045, 0, -0.426474, -29.262, 0.671516, 70.9103)
+
+[node name="superyacht_models10" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.426474, 0, -0.9045, 0, 1, 0, 0.9045, 0, -0.426474, -36.8476, 0.671516, 88.6102)
+
+[node name="superyacht_models11" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.426474, 0, -0.9045, 0, 1, 0, 0.9045, 0, -0.426474, -24.6861, 0.671516, 53.4378)
+
+[node name="superyacht_models8" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.938161, 0, -0.346199, 0, 1, 0, 0.346199, 0, -0.938161, -4.22935, 0.671516, 33.2349)
+
+[node name="superyacht_models9" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.943651, 0, 0.330943, 0, 1, 0, -0.330943, 0, -0.943651, -80.0858, 0.671516, 160.674)
+
+[node name="superyacht_models6" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.378697, 0, -0.925521, 0, 1, 0, 0.925521, 0, -0.378697, -45.6976, 0.671516, 103.781)
+
+[node name="superyacht_models7" parent="Yachts" instance=ExtResource("8_fbkau")]
+transform = Transform3D(-0.295758, 0, -0.955263, 0, 1, 0, 0.955263, 0, -0.295758, -51.2604, 0.671516, 118.953)
+
+[node name="Peer_Main" parent="." instance=ExtResource("7_tudc8")]

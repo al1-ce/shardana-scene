@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://6bqbwrh4h1ym"]
+
+[ext_resource type="Shader" path="res://scenes/peer_main.gdshader" id="1_yxx8y"]
+[ext_resource type="Texture2D" uid="uid://ureac18453ma" path="res://assets/resources/imgonline-com-ua-TextureSeamless-khimLGklwA.png" id="2_py025"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_d6365"]
+size = Vector2(10000, 10000)
+subdivide_width = 100
+subdivide_depth = 100
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_0d6f3"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_fbglp"]
+width = 1024
+height = 1024
+noise = SubResource("FastNoiseLite_0d6f3")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q0ly2"]
+render_priority = 0
+shader = ExtResource("1_yxx8y")
+shader_parameter/alpha = 0.471
+shader_parameter/offset = -1.859
+shader_parameter/strength = 3.0
+shader_parameter/scale = 100.909
+shader_parameter/waterTexture = ExtResource("2_py025")
+shader_parameter/heightMap = SubResource("NoiseTexture2D_fbglp")
+
+[node name="Water" type="CSGMesh3D"]
+mesh = SubResource("PlaneMesh_d6365")
+material = SubResource("ShaderMaterial_q0ly2")

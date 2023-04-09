@@ -1,0 +1,177 @@
+[gd_scene load_steps=21 format=3 uid="uid://ds8i0xh8hyugb"]
+
+[ext_resource type="PackedScene" uid="uid://du5huu5exbtf3" path="res://scenes/yacht.tscn" id="1_qyh8u"]
+[ext_resource type="PackedScene" uid="uid://rq7ivoo08yhi" path="res://scenes/freccia_01.tscn" id="2_yoj74"]
+[ext_resource type="Texture2D" uid="uid://c58iqp8r00sxf" path="res://assets/textures/Frecca/04. Marlin_Filled.png" id="3_xxljl"]
+[ext_resource type="Texture2D" uid="uid://tyoabyys1pk5" path="res://assets/textures/Frecca/02. Pike_Filled.png" id="4_8y67i"]
+[ext_resource type="Texture2D" uid="uid://rh01on64pn0" path="res://assets/textures/Frecca/03. Remora_Filled.png" id="5_cuiku"]
+[ext_resource type="Texture2D" uid="uid://bxfympnuxc3xv" path="res://assets/textures/Frecca/05. Narwhal_Filled.png" id="6_clgvp"]
+[ext_resource type="Texture2D" uid="uid://ym5u08k4inlq" path="res://assets/textures/Frecca/Tribute_Template_3.png" id="6_mv6nx"]
+[ext_resource type="PackedScene" uid="uid://u8sgrsgolpii" path="res://scenes/peer_main.tscn" id="7_scxqc"]
+[ext_resource type="Texture2D" uid="uid://ilmpc5cfibp2" path="res://assets/textures/Frecca/01. Freccia_Filled.png" id="8_e5h01"]
+[ext_resource type="PackedScene" uid="uid://8hsqss7f8bcj" path="res://scenes/camera_drone_split.tscn" id="9_siihd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ddkpv"]
+albedo_color = Color(1, 0.0666667, 0, 1)
+emission_enabled = true
+emission = Color(1, 0, 0.0117647, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lu4uu"]
+albedo_color = Color(0.211765, 0.211765, 0.211765, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_pxege"]
+size = Vector2(0.472, 0.631)
+
+[sub_resource type="QuadMesh" id="QuadMesh_23sem"]
+size = Vector2(0.537, 0.616)
+
+[sub_resource type="QuadMesh" id="QuadMesh_l70qb"]
+size = Vector2(0.607, 0.854)
+
+[sub_resource type="QuadMesh" id="QuadMesh_8hwiu"]
+size = Vector2(0.472, 0.663)
+
+[sub_resource type="QuadMesh" id="QuadMesh_dp6ip"]
+size = Vector2(0.531, 0.583)
+
+[sub_resource type="QuadMesh" id="QuadMesh_53yyt"]
+size = Vector2(0.473, 0.48)
+
+[sub_resource type="QuadMesh" id="QuadMesh_wqt14"]
+size = Vector2(0.547, 0.56)
+
+[sub_resource type="QuadMesh" id="QuadMesh_mx32i"]
+size = Vector2(0.528, 0.569)
+
+[node name="peer_1" type="Node3D"]
+
+[node name="Camera_1" type="Camera3D" parent="."]
+transform = Transform3D(0.466011, -0.0792888, 0.881219, 0.0835917, 0.995467, 0.045363, -0.880821, 0.0525229, 0.470527, 101.475, 1.847, 21.594)
+visible = false
+fov = 62.0
+
+[node name="Dude" type="Node3D" parent="Camera_1"]
+transform = Transform3D(0.994432, 0, -0.105378, -0.0121118, 0.993373, -0.114297, 0.10468, 0.114937, 0.987842, -0.0628738, -0.781313, 0.50737)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Camera_1/Dude"]
+material = SubResource("StandardMaterial3D_ddkpv")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143631, 0.689378, -0.403097)
+radius = 0.115814
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.403099)
+radius = 0.115814
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.176338, 0.689378, -0.451702)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="Camera_1/Dude"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156445, 0.689378, -0.451704)
+radius = 0.0825092
+material = SubResource("StandardMaterial3D_lu4uu")
+
+[node name="Yachts" type="Node3D" parent="."]
+
+[node name="yacht2" parent="Yachts" instance=ExtResource("1_qyh8u")]
+transform = Transform3D(-0.965827, 0, -0.25919, 0, 1, 0, 0.25919, 0, -0.965827, 72.1217, 0.652401, 125.552)
+
+[node name="Freccia_01" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.9641, 0.398163, 7.27475)
+texture = ExtResource("3_xxljl")
+
+[node name="Freccia_02" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(-0.912991, -0.0601906, -0.403516, 0, 0.989057, -0.147533, 0.40798, -0.134696, -0.903, 41.177, -0.657836, 29.2376)
+texture = ExtResource("4_8y67i")
+
+[node name="Freccia_03" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(0.670919, 0, -0.741531, 0, 1, 0, 0.741531, 0, 0.670919, 63.6274, 3.8147e-06, -2.2175)
+texture = ExtResource("5_cuiku")
+
+[node name="Freccia_07" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(0.403801, 0, 0.914847, 0, 1, 0, -0.914847, 0, 0.403801, -40.6027, 3.8147e-06, 68.1116)
+texture = ExtResource("6_mv6nx")
+
+[node name="Freccia_04" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(0.55361, 0, -0.832776, 0, 1, 0, 0.832776, 0, 0.55361, 93.0994, 3.8147e-06, 17.1805)
+texture = ExtResource("6_clgvp")
+
+[node name="Freccia_06" parent="Yachts" instance=ExtResource("2_yoj74")]
+transform = Transform3D(0.975768, 0, -0.218808, 0, 1, 0, 0.218807, 0, 0.975768, 46.9864, 0.218, -5.70825)
+texture = ExtResource("8_e5h01")
+
+[node name="Peer_Main" parent="." instance=ExtResource("7_scxqc")]
+
+[node name="camera_drone_split" parent="." instance=ExtResource("9_siihd")]
+transform = Transform3D(-0.169492, 0.158048, -0.190508, 0.097454, 0.254848, 0.124721, 0.227541, 0.00857862, -0.195324, 91.57, 5.063, 16.352)
+
+[node name="Node3D" parent="camera_drone_split/drone_Mesh" index="0"]
+transform = Transform3D(1, 2.98023e-08, 3.05474e-07, 2.04891e-08, -0.269138, -0.963101, 1.78814e-07, 0.963102, -0.269138, -1.08026, -0.434952, -1.56047)
+
+[node name="GPUParticles3D2" parent="camera_drone_split/drone_Mesh/Node3D/drone_Mesh001" index="0"]
+transform = Transform3D(0.999999, 2.98023e-08, 1.3027e-15, 0, -4.37114e-08, 1, 2.98023e-08, -1, -4.37114e-08, -1.61087, -0.529005, -0.150524)
+draw_pass_1 = SubResource("QuadMesh_pxege")
+
+[node name="Node3D3" parent="camera_drone_split/drone_Mesh" index="1"]
+transform = Transform3D(1, -5.96046e-08, 1.88127e-07, 2.04891e-08, -0.0982083, -0.995166, 1.78814e-07, 0.995166, -0.0982082, -1.08025, 0.631683, 1.54176)
+
+[node name="GPUParticles3D2" parent="camera_drone_split/drone_Mesh/Node3D3/drone_Mesh001" index="0"]
+draw_pass_1 = SubResource("QuadMesh_23sem")
+
+[node name="Node3D4" parent="camera_drone_split/drone_Mesh" index="2"]
+transform = Transform3D(1, -2.98023e-08, 2.75671e-07, 2.04891e-08, -0.287979, -0.957637, 1.78814e-07, 0.957637, -0.287979, 1.04359, 0.631683, 1.54176)
+
+[node name="GPUParticles3D2" parent="camera_drone_split/drone_Mesh/Node3D4" index="0"]
+draw_pass_1 = SubResource("QuadMesh_l70qb")
+
+[node name="Node3D5" parent="camera_drone_split/drone_Mesh" index="3"]
+transform = Transform3D(1, -2.98023e-08, 2.83122e-07, 2.04891e-08, -0.385761, -0.922599, 1.78814e-07, 0.922599, -0.385761, 1.0436, -0.377701, -1.51892)
+
+[node name="GPUParticles3D2" parent="camera_drone_split/drone_Mesh/Node3D5" index="0"]
+draw_pass_1 = SubResource("QuadMesh_8hwiu")
+
+[node name="Node3D2" parent="camera_drone_split/drone_Mesh" index="4"]
+transform = Transform3D(0.993582, 8.19564e-08, -0.113117, -1.67638e-08, 1, -2.98023e-08, 0.113117, -3.1665e-08, 0.993582, 0, -0.374222, 0.397141)
+
+[node name="Node3D" parent="camera_drone_split/drone_Mesh/Node3D2" index="1"]
+transform = Transform3D(1, 0, 0, 3.91155e-08, 0.922706, 0.385503, 2.08616e-07, -0.385503, 0.922706, -1.52588e-05, -0.0657806, -0.269089)
+
+[node name="camera_drone_split2" parent="." instance=ExtResource("9_siihd")]
+transform = Transform3D(-0.277714, 0.0583602, 0.0973077, 0.0973077, 0.254824, 0.124884, -0.0583601, 0.14717, -0.254824, 96.71, 3.002, 15.135)
+
+[node name="Node3D" parent="camera_drone_split2/drone_Mesh" index="0"]
+transform = Transform3D(1, -2.98023e-08, 2.86847e-07, -7.45058e-09, -0.552155, -0.833741, 1.78814e-07, 0.833741, -0.552155, -1.08026, -0.434952, -1.56049)
+
+[node name="GPUParticles3D2" parent="camera_drone_split2/drone_Mesh/Node3D/drone_Mesh001" index="0"]
+draw_pass_1 = SubResource("QuadMesh_dp6ip")
+
+[node name="Node3D3" parent="camera_drone_split2/drone_Mesh" index="1"]
+transform = Transform3D(1, 1.49012e-08, 1.49012e-07, 0, 0.274496, -0.961588, 1.78814e-07, 0.961588, 0.274496, -1.08026, 0.631668, 1.54176)
+
+[node name="GPUParticles3D2" parent="camera_drone_split2/drone_Mesh/Node3D3/drone_Mesh001" index="0"]
+draw_pass_1 = SubResource("QuadMesh_53yyt")
+
+[node name="Node3D4" parent="camera_drone_split2/drone_Mesh" index="2"]
+transform = Transform3D(1, 1.49012e-08, 2.38419e-07, 0, -0.206204, -0.978509, 1.78814e-07, 0.978509, -0.206204, 1.04358, 0.631676, 1.54175)
+
+[node name="GPUParticles3D2" parent="camera_drone_split2/drone_Mesh/Node3D4" index="0"]
+draw_pass_1 = SubResource("QuadMesh_wqt14")
+
+[node name="Node3D5" parent="camera_drone_split2/drone_Mesh" index="3"]
+transform = Transform3D(1, 4.47035e-08, 2.90573e-07, 0, -0.766549, -0.642186, 1.78814e-07, 0.642186, -0.766549, 1.04355, -0.377716, -1.51894)
+
+[node name="GPUParticles3D2" parent="camera_drone_split2/drone_Mesh/Node3D5" index="0"]
+draw_pass_1 = SubResource("QuadMesh_mx32i")
+
+[node name="Node3D2" parent="camera_drone_split2/drone_Mesh" index="4"]
+transform = Transform3D(0.978046, 1.04308e-07, -0.20839, -1.49012e-08, 1, 2.98023e-08, 0.20839, -2.98023e-08, 0.978046, 0, -0.374237, 0.397133)
+
+[node name="Node3D" parent="camera_drone_split2/drone_Mesh/Node3D2" index="1"]
+transform = Transform3D(1, -4.47035e-08, -2.98023e-08, 5.96046e-08, 0.968679, 0.248318, 5.96046e-08, -0.248318, 0.968679, 0, -0.0653, -0.23941)
+
+[editable path="camera_drone_split"]
+[editable path="camera_drone_split2"]

@@ -1,4 +1,4 @@
-[gd_resource type="ShaderMaterial" load_steps=8 format=3]
+[gd_resource type="ShaderMaterial" load_steps=8 format=3 uid="uid://r6e3txsaogt5"]
 
 [ext_resource type="Shader" path="res://assets/shaders/water_fancy.gdshader" id="1_deu5b"]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dhdca1ofpo1cm"]
+[gd_scene load_steps=32 format=3 uid="uid://dhdca1ofpo1cm"]
 
 [ext_resource type="Sky" uid="uid://duqkskhiei6y4" path="res://assets/resources/skybox.tres" id="1_3okv6"]
 [ext_resource type="Shader" path="res://assets/shaders/water_fancy.gdshader" id="1_i4qaq"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://tyoabyys1pk5" path="res://assets/textures/Frecca/02. Pike_Filled.png" id="5_knme2"]
 [ext_resource type="Texture2D" uid="uid://g08cwvhvovcv" path="res://VFX/kenney_pack/dirt_03.png" id="6_fp7ej"]
 [ext_resource type="PackedScene" uid="uid://8hsqss7f8bcj" path="res://scenes/camera_drone_split.tscn" id="7_m44jd"]
+[ext_resource type="PackedScene" uid="uid://6bqbwrh4h1ym" path="res://scenes/water.tscn" id="9_dmyqc"]
 
 [sub_resource type="Environment" id="Environment_2gjfn"]
 background_mode = 2
@@ -136,11 +137,13 @@ metadata/_edit_lock_ = true
 
 [node name="CSGMesh3D3" type="CSGMesh3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.3419, 0)
+visible = false
 mesh = SubResource("PlaneMesh_likmx")
 material = SubResource("ShaderMaterial_4ry1r")
 
 [node name="CSGMesh3D2" type="CSGMesh3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -99.3, 0)
+visible = false
 mesh = SubResource("PlaneMesh_xbyj1")
 material = SubResource("StandardMaterial3D_lw4v1")
 metadata/_edit_lock_ = true
@@ -244,6 +247,8 @@ transform = Transform3D(1, -2.98023e-08, 1.49012e-08, -3.72529e-08, 0.900964, -0
 
 [node name="Camera3D" type="Camera3D" parent="camera_drone_split3/drone_Mesh/Node3D2/Node3D/drone_Mesh006" index="0"]
 transform = Transform3D(0.999999, -5.88596e-07, -2.6226e-06, 0, 0.999999, 2.68221e-07, -1.19209e-07, -1.49012e-08, 1, -4.76837e-06, -1.55575, -1.5194)
+
+[node name="Water" parent="." instance=ExtResource("9_dmyqc")]
 
 [editable path="camera_drone_split"]
 [editable path="camera_drone_split3"]
